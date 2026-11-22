@@ -14,32 +14,6 @@ The study tests the hypothesis that *trustworthy cardiac screening emerges from 
 
 ---
 
-## How MySteth 2.0 works
-
-```mermaid
-flowchart TD
-    A["Heart-sound recording<br/>(one per auscultation site)"] --> B["Audio at 4 kHz<br/>(resampled if needed)"]
-    B --> C{"① SQA gate<br/>Good or Poor?<br/>(5 pretrained audio encoders<br/>+ 7 hand-crafted features)"}
-    C -- "Poor on every recording<br/>of the patient" --> R["Ask for a re-recording"]
-    C -- "Good recordings pass" --> D["5 s windows (2.5 s hop)<br/>→ log-mel spectrogram"]
-    D --> E["② SSL encoder<br/>(BYOL-A on CirCor + PhysioNet 2016 + PASCAL,<br/>fine-tuned jointly)"]
-    E --> F1["③ Murmur head<br/>Present / Absent"]
-    E --> F2["③ Outcome head<br/>Normal / Abnormal"]
-    F1 --> G["④ UQ: 3-seed ensemble, temperature-scaled<br/>windows averaged per recording<br/>→ patient probability (murmur: max, outcome: mean)<br/>→ Chow risk per task"]
-    F2 --> G
-    G --> H{"④ Confidence gate<br/>in the top 20% of patients<br/>by risk (higher of the two tasks)?"}
-    H -- "Yes" --> K["Refer to a clinician"]
-    H -- "No" --> L["Automated decision<br/>murmur + outcome"]
-    L --> X["⑤ XAI: Grad-CAM map<br/>shows the evidence (e.g. systole)"]
-
-    classDef gate fill:#E67E22,stroke:#E67E22,color:#fff
-    classDef out fill:#1F3864,stroke:#1F3864,color:#fff
-    classDef human fill:#6B7280,stroke:#6B7280,color:#fff
-    class C,H gate
-    class L,X out
-    class R,K human
-```
-
 | Part of the pipeline | Built and tested in |
 |---|---|
 | ① SQA gate | [`00_SQA`](00_SQA/) (model), [`RQ1`](RQ1/) (its link to uncertainty) |
@@ -179,6 +153,33 @@ MySeth-2.0/
 ├── final_system/                      ← patient-level CSVs and model settings
 └── large_files/                       ← one file per folder: its inputs (with links) and its outputs kept on Kaggle
 ```
+
+## How MySteth 2.0 works
+
+```mermaid
+flowchart TD
+    A["Heart-sound recording<br/>(one per auscultation site)"] --> B["Audio at 4 kHz<br/>(resampled if needed)"]
+    B --> C{"① SQA gate<br/>Good or Poor?<br/>(5 pretrained audio encoders<br/>+ 7 hand-crafted features)"}
+    C -- "Poor on every recording<br/>of the patient" --> R["Ask for a re-recording"]
+    C -- "Good recordings pass" --> D["5 s windows (2.5 s hop)<br/>→ log-mel spectrogram"]
+    D --> E["② SSL encoder<br/>(BYOL-A on CirCor + PhysioNet 2016 + PASCAL,<br/>fine-tuned jointly)"]
+    E --> F1["③ Murmur head<br/>Present / Absent"]
+    E --> F2["③ Outcome head<br/>Normal / Abnormal"]
+    F1 --> G["④ UQ: 3-seed ensemble, temperature-scaled<br/>windows averaged per recording<br/>→ patient probability (murmur: max, outcome: mean)<br/>→ Chow risk per task"]
+    F2 --> G
+    G --> H{"④ Confidence gate<br/>in the top 20% of patients<br/>by risk (higher of the two tasks)?"}
+    H -- "Yes" --> K["Refer to a clinician"]
+    H -- "No" --> L["Automated decision<br/>murmur + outcome"]
+    L --> X["⑤ XAI: Grad-CAM map<br/>shows the evidence (e.g. systole)"]
+
+    classDef gate fill:#E67E22,stroke:#E67E22,color:#fff
+    classDef out fill:#1F3864,stroke:#1F3864,color:#fff
+    classDef human fill:#6B7280,stroke:#6B7280,color:#fff
+    class C,H gate
+    class L,X out
+    class R,K human
+```
+
 
 **Not in this repo:**
 - the audio datasets (CirCor, ZCHSound, PhysioNet/CinC 2016, PASCAL);
