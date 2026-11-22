@@ -1,0 +1,9 @@
+task,level,what,n deferred each,overlap,expected if independent,observed / expected,ci_low,ci_high,value (95% CI)
+murmur,patient,"SQA re-record vs confidence gate (Chow), same number",152.0,35.0,26.434782608695652,1.3240131578947367,0.9518707709194215,1.6427752290416981,"1.324 [0.952, 1.643]"
+murmur,recording,"SQA-rejected vs highest-entropy recordings, same number",1299.0,627.0,533.4811887448625,1.1752991731070443,1.1096248799233748,1.2318678878600693,"1.175 [1.110, 1.232]"
+murmur,recording,AUROC of downstream entropy for 'SQA rejected',,,,0.6001215857691786,0.5747971416498127,0.6238547579110523,"0.600 [0.575, 0.624]"
+murmur,recording,AUROC of downstream entropy for 'human Poor',,,,0.5916730852227814,0.5671903270978238,0.6164747704948869,"0.592 [0.567, 0.616]"
+outcome,patient,"SQA re-record vs confidence gate (Chow), same number",208.0,44.0,45.92781316348195,0.9580251479289942,0.7320193924543451,1.2073267745809166,"0.958 [0.732, 1.207]"
+outcome,recording,"SQA-rejected vs highest-entropy recordings, same number",1299.0,605.0,533.4811887448625,1.1340606056296043,1.0766260707591209,1.196209623339333,"1.134 [1.077, 1.196]"
+outcome,recording,AUROC of downstream entropy for 'SQA rejected',,,,0.5690296596589651,0.5439651894707519,0.5936627450955636,"0.569 [0.544, 0.594]"
+outcome,recording,AUROC of downstream entropy for 'human Poor',,,,0.5682294815555083,0.5429969336836408,0.594349195322026,"0.568 [0.543, 0.594]"

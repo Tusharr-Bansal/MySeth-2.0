@@ -1,0 +1,15 @@
+component,task,verdict,worse without it,better without it,hypothesis
+① SQA gate,murmur,contributes,ECE,,partly supported
+① SQA gate,outcome,no measurable contribution,,,partly supported
+"① SQA gate (same total workload, RQ1)",murmur,no measurable contribution,,,partly supported
+"① SQA gate (same total workload, RQ1)",outcome,no measurable contribution,,,partly supported
+② SSL,murmur,contributes,F1 (macro),,partly supported
+② SSL,outcome,no measurable contribution,,,partly supported
+③ multi-task,murmur,no measurable contribution,,,partly supported
+③ multi-task,outcome,harmful,,Weighted accuracy,partly supported
+④ UQ,murmur,no measurable contribution,,,partly supported
+④ UQ,outcome,no measurable contribution,,,partly supported
+confidence gate,murmur,contributes,"Weighted accuracy, F1 (macro)",,partly supported
+confidence gate,outcome,no measurable contribution,,,partly supported
+⑤ XAI,murmur,decisions unchanged by design (explanations: RQ5),,,partly supported
+⑤ XAI,outcome,decisions unchanged by design (explanations: RQ5),,,partly supported

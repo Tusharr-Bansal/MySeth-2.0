@@ -1,0 +1,6 @@
+check,value,ci_low,ci_high,value (95% CI)
+SQA p_good: AUROC for clean vs noisy recordings,0.5508658659662209,0.5154725130018718,0.5861642374191263,"0.551 [0.515, 0.586]"
+"SQA pass rate, clean",0.9819341126461212,0.9725151291430362,0.9901104323308271,"0.982 [0.973, 0.990]"
+"SQA pass rate, noisy",0.9905660377358491,0.9783247977006838,1.0,"0.991 [0.978, 1.000]"
+"Chow risk (murmur head): AUROC for its own errors, children reaching the gate",0.6450176237800145,0.6103173001424413,0.6781153361522954,"0.645 [0.610, 0.678]"
+"Chow risk (outcome head): AUROC for its own errors, children reaching the gate",0.6620086816911459,0.6335226229732344,0.6909854084347365,"0.662 [0.634, 0.691]"

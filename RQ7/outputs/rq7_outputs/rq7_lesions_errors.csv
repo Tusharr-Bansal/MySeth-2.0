@@ -1,0 +1,19 @@
+level,diagnosis,children,murmur-head errors
+all children (no gates),NORMAL,693,2
+all children (no gates),VSD,201,43
+all children (no gates),PDA,39,24
+all children (no gates),ASD,221,197
+all children (no gates),PFO,105,104
+all children (no gates),total,1259,370
+passed SQA (no confidence gate),NORMAL,688,2
+passed SQA (no confidence gate),VSD,198,41
+passed SQA (no confidence gate),PDA,39,24
+passed SQA (no confidence gate),ASD,213,189
+passed SQA (no confidence gate),PFO,101,100
+passed SQA (no confidence gate),total,1239,356
+automated in full system,NORMAL,555,0
+automated in full system,VSD,171,27
+automated in full system,PDA,27,14
+automated in full system,ASD,159,149
+automated in full system,PFO,79,79
+automated in full system,total,991,269

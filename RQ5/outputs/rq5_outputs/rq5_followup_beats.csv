@@ -1,0 +1,13 @@
+set,test,x,y,controls added,n,partial,lo,hi,partial ρ (95% CI)
+"target, decided Present",B1.1 entropy vs beat coverage (pred. < 0),murmur_entropy,beat_coverage_m,,432,-0.6600318600132963,-0.7268416376574198,-0.5698885904862294,"-0.660 [-0.727, -0.570]"
+"target, decided Present",B1.2 entropy vs single-beat concentration (pred. > 0),murmur_entropy,single_beat_conc_m,,432,0.7151322769184882,0.6330793728384562,0.7690603047027621,"+0.715 [+0.633, +0.769]"
+"target, decided Present",B1.3 diffuseness vs beat coverage (pred. > 0),diffuseness_cam_m,beat_coverage_m,,432,0.21893938242358793,0.05812283942498003,0.37258631674996595,"+0.219 [+0.058, +0.373]"
+"target, decided Present",B1.4a entropy vs diffuseness,murmur_entropy,diffuseness_cam_m,,432,-0.46449488141335044,-0.57127477689924,-0.32355461487449394,"-0.464 [-0.571, -0.324]"
+"target, decided Present","B1.4b entropy vs diffuseness, controlling beat coverage (pred. nearer 0)",murmur_entropy,diffuseness_cam_m,beat_coverage_m,432,-0.4365387784598255,-0.5205253814474342,-0.3182132001216449,"-0.437 [-0.521, -0.318]"
+"target, decided Present",B1.5 entropy vs seeds choosing the same beat (pred. < 0),murmur_entropy,seed_beat_agreement_m,,432,0.18584450437017722,0.09394182590083408,0.26949140979914,"+0.186 [+0.094, +0.269]"
+"all annotated, decided Present",B1.1 entropy vs beat coverage (pred. < 0),murmur_entropy,beat_coverage_m,,758,-0.4648582796862954,-0.5464814213734004,-0.37040688245735315,"-0.465 [-0.546, -0.370]"
+"all annotated, decided Present",B1.2 entropy vs single-beat concentration (pred. > 0),murmur_entropy,single_beat_conc_m,,758,0.4903597297094119,0.3994082707138391,0.5707798802220931,"+0.490 [+0.399, +0.571]"
+"all annotated, decided Present",B1.3 diffuseness vs beat coverage (pred. > 0),diffuseness_cam_m,beat_coverage_m,,758,0.13115715408469136,0.020681814093976545,0.2519694801965017,"+0.131 [+0.021, +0.252]"
+"all annotated, decided Present",B1.4a entropy vs diffuseness,murmur_entropy,diffuseness_cam_m,,758,-0.30500913070160346,-0.3992601265543287,-0.1985739029344374,"-0.305 [-0.399, -0.199]"
+"all annotated, decided Present","B1.4b entropy vs diffuseness, controlling beat coverage (pred. nearer 0)",murmur_entropy,diffuseness_cam_m,beat_coverage_m,758,-0.27803283006302804,-0.3531632622292226,-0.19049973777074006,"-0.278 [-0.353, -0.190]"
+"all annotated, decided Present",B1.5 entropy vs seeds choosing the same beat (pred. < 0),murmur_entropy,seed_beat_agreement_m,,758,0.14679572879774627,0.07526784932515461,0.22287434799911332,"+0.147 [+0.075, +0.223]"

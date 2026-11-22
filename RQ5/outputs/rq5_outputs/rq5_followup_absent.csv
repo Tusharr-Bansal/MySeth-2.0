@@ -1,0 +1,3 @@
+set,test,x,y,controls added,n,partial,lo,hi,partial ρ (95% CI)
+decided Absent,entropy vs systole enrichment,murmur_entropy,systole_enrichment_cam_m,,2396,-0.29729718816505163,-0.34040144832219654,-0.2564715594039174,"-0.297 [-0.340, -0.256]"
+decided Absent,seed agreement vs systole enrichment,consistency_m,systole_enrichment_cam_m,,2396,0.0017545457260306416,-0.04953731344113309,0.05717919026426985,"+0.002 [-0.050, +0.057]"

@@ -1,0 +1,341 @@
+comparison,task,method,level,metric,difference,ci_low,ci_high,verdict
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,patient,F1 (macro),0.01660805589894898,-0.008933314734426077,0.04198506886156575,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,patient,Accuracy,0.017162471395881007,-0.0011250184507479223,0.035119679934676254,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,patient,Weighted accuracy,-0.013207547169811318,-0.04044949743892025,0.01481135061468549,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,patient,AUC,0.0015674611149070206,-0.014681400519559134,0.01968522685670887,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,recording,AUC,0.01448817807036129,0.0006070740061580067,0.029104974646528926,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,recording,ECE,-0.019160934764847187,-0.03036557395554591,-0.005315594711383912,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,recording,Brier,-0.006267483057390347,-0.011154645716155532,-0.0010251433383130421,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,single,recording,Log-loss,-0.05717593148035377,-0.08524541316666351,-0.029324467803146,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,patient,F1 (macro),0.015878715416181688,-0.010355202498328457,0.04177343087148317,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,patient,Accuracy,0.016018306636155555,-0.0034404657200939603,0.03444515054188207,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,patient,Weighted accuracy,-0.01132075471698113,-0.03795554171714968,0.015288020944212943,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,patient,AUC,-0.006872714119207202,-0.023722043033399746,0.010614600266183626,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,recording,AUC,0.00033879754707866194,-0.014956247901836204,0.015360678670648989,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,recording,ECE,-0.00898738643511993,-0.02118758070384414,0.0055870558228972985,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,recording,Brier,-0.00435699599898251,-0.009307979462375302,0.0008579725048593921,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,temp,recording,Log-loss,-0.021856178582095487,-0.042822801115251344,-0.0016136710433218226,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,patient,F1 (macro),0.02097603121149416,-0.0048233151621707255,0.04618538098999393,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,patient,Accuracy,0.0194508009153318,0.0011518433179724286,0.03741635998661764,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,patient,Weighted accuracy,-0.00691823899371069,-0.03323460902124695,0.019992942172033148,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,patient,AUC,0.0016156906876735322,-0.014621569855054634,0.020182123950116506,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,recording,AUC,0.01487178651545018,0.0008820142942088912,0.029651748394150586,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,recording,ECE,-0.019854610894543285,-0.0315475518929905,-0.005406662268391635,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,recording,Brier,-0.006117216006872261,-0.010927465793083058,-0.0009773281465956791,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,mc,recording,Log-loss,-0.053212941344280174,-0.08063770949048102,-0.02580128299462209,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,patient,F1 (macro),0.03214481514183709,0.009446728899175054,0.055469172133180616,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,patient,Accuracy,0.03089244851258577,0.01346179646280268,0.0483356011661621,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,patient,Weighted accuracy,-0.008176100628930816,-0.0279966190029373,0.0109991653928487,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,patient,AUC,-0.0031268839676862337,-0.01670023779752824,0.010389699183429803,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,recording,AUC,0.00229146637553157,-0.007308786031789932,0.012702877542012669,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,recording,ECE,-0.0051217740573567296,-0.01389846712595021,0.005223783417476584,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,recording,Brier,-0.0004955704525068244,-0.003196224606135968,0.0025626337895957836,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens,recording,Log-loss,-0.01440979601187986,-0.028697557839977655,-0.00038566611764312046,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,patient,F1 (macro),0.023528100473650282,0.0023686340222325076,0.04507503058865886,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,patient,Accuracy,0.022883295194507935,0.0068415051311288,0.03955026201124822,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,patient,Weighted accuracy,-0.007547169811320753,-0.026577440462520207,0.009412223018482489,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,patient,AUC,-0.005763433945580987,-0.018935676069827323,0.007516578854816265,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,recording,AUC,-0.006320373478466479,-0.01697396737120419,0.004325546596271269,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,recording,ECE,0.00253628334631268,-0.007558483088075106,0.013502210695441098,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,recording,Brier,-0.00013256472940521846,-0.002901122477571419,0.0029866414365635795,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",murmur,ens_temp,recording,Log-loss,0.0008131122139137248,-0.009823229064603483,0.012698567848299197,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,patient,F1 (macro),0.009641682295586929,-0.02099578129325999,0.03821750122398858,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,patient,Accuracy,0.009554140127388533,-0.02038736213023215,0.03637366310160428,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,patient,Weighted accuracy,0.010484454085321726,-0.025163068059280518,0.04128357543511395,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,patient,AUC,0.01706104252400542,-0.0018594192240980905,0.03456697287518241,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,patient,Cost (c_outcome),-199.82203497066075,-758.7922460448158,425.4888320586899,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,recording,AUC,0.007066780010501872,-0.008546001027573007,0.021980629073670023,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,recording,ECE,0.0023463652537790286,-0.014786720351259521,0.02073699465823257,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,recording,Brier,-0.002880086092656192,-0.007363361912441092,0.0019063824578233787,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,single,recording,Log-loss,-0.012052827161605273,-0.027573495603417545,0.0024757761237163244,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,patient,F1 (macro),0.05926467992813145,0.026836833180514257,0.08867199402075819,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,patient,Accuracy,0.043524416135881094,0.013536381414346,0.07150665618154242,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,patient,Weighted accuracy,-0.027114967462039008,-0.06313597700547444,0.0035695246638974974,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,patient,AUC,0.015892354342646797,-0.003717664719777897,0.03383670111018805,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,patient,Cost (c_outcome),5.141385103288485,-589.2837217508329,693.54867111794,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,recording,AUC,0.006118245796032484,-0.009900327704284333,0.020985077825328605,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,recording,ECE,-0.0032416050790717438,-0.01726788737534449,0.01816463449596458,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,recording,Brier,-0.001798600640779191,-0.004980757299761945,0.00157167306682124,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,temp,recording,Log-loss,-0.006097261128996334,-0.015832297764554967,0.003210092131558059,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,patient,F1 (macro),0.03658223018267248,0.007872584336027109,0.06481826552772642,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,patient,Accuracy,0.030785562632696384,0.004271269177126902,0.056397454888230523,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,patient,Weighted accuracy,0.01626898047722347,-0.014808643527833728,0.044244051161769535,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,patient,AUC,0.01754837195870329,-0.0008578967847688189,0.03498221547343836,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,patient,Cost (c_outcome),-503.1958538685012,-994.8845594693561,24.756144514643427,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,recording,AUC,0.007691932096156484,-0.007454943956443691,0.02238180143047657,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,recording,ECE,-0.00013921330434703283,-0.016779271448272754,0.018671071448798354,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,recording,Brier,-0.003181796102617096,-0.007332844452246005,0.001319445662500016,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,mc,recording,Log-loss,-0.010916922668461004,-0.023637734954390557,0.0015752244209376414,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,patient,F1 (macro),-0.017761557014685847,-0.04224668087905055,0.006905850976441821,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,patient,Accuracy,-0.018046709129511673,-0.041140326547525155,0.005285552087877729,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,patient,Weighted accuracy,-0.022053506869125106,-0.04806366970960693,0.005140568845914076,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,patient,AUC,-0.010220381199913309,-0.023810418958116218,0.0018903549736734191,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,patient,Cost (c_outcome),413.89659882295746,-75.54576443196765,891.2740840679329,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,recording,AUC,-0.010286593409408185,-0.021835979820229383,0.0007319090377239663,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,recording,ECE,0.0184971327540792,0.0005865780926011688,0.03429250153045068,Separate (per task)
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,recording,Brier,-0.000985899931372325,-0.004379087959198518,0.0023936726938436374,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens,recording,Log-loss,-0.008757760981108254,-0.021132404594324875,0.001868826081866466,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,patient,F1 (macro),0.0002722729992032935,-0.02134423704371324,0.022654011529771215,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,patient,Accuracy,-0.005307855626326963,-0.026344214207271267,0.016721993070450466,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,patient,Weighted accuracy,-0.03651482284887919,-0.06178674701037071,-0.013558693123697542,Separate (per task)
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,patient,AUC,-0.008880225254494278,-0.02207527680764388,0.003282607960448148,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,patient,Cost (c_outcome),516.7852775571537,105.15977833917769,996.4596299099713,Separate (per task)
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,recording,AUC,-0.009212388417156658,-0.02062747956192081,0.0011439578251781258,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,recording,ECE,0.01278796073110814,-0.0012388991117610125,0.02728699370927992,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,recording,Brier,-0.0006442613646834849,-0.0031068653103953577,0.0018119602019916854,n.s.
+"Joint, Domain-SSL (system) − Separate (per task)",outcome,ens_temp,recording,Log-loss,-0.0030079153087282373,-0.00961316795896733,0.0032465541014100124,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,patient,F1 (macro),0.031245215955626016,0.0020049235960064916,0.060329061937345795,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,patient,Accuracy,0.03089244851258588,0.01032051046543365,0.0516711027256494,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,patient,Weighted accuracy,-0.013207547169811318,-0.0457723455338524,0.01826187071539715,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,patient,AUC,0.0023230577549133713,-0.010814479049509476,0.016356641938558732,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,recording,AUC,0.0057901111853432274,-0.007009061802181337,0.01910423221467891,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,recording,ECE,0.0037885446918003336,-0.007581931209298094,0.013883195366213534,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,recording,Brier,-0.005358641096857755,-0.008906286224571992,-0.0018729785811302472,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,single,recording,Log-loss,-0.011593463963627426,-0.024884735177504957,0.0016172509767462637,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,patient,F1 (macro),0.029295854305944058,0.0005256901926844526,0.056829187846918254,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,patient,Accuracy,0.028604118993134975,0.008136734585022462,0.04811134493521238,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,patient,Weighted accuracy,-0.011949685534591192,-0.04371508315518169,0.018040802359654516,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,patient,AUC,-0.002837506531087941,-0.017748552515653944,0.0123959274646152,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,recording,AUC,-0.002385840842553555,-0.016077725827522368,0.010001077011479025,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,recording,ECE,0.0059366202283043686,-0.00458521362982996,0.014512595283428452,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,recording,Brier,-0.0038335366134744087,-0.0074892678632066416,-0.0002817137348284106,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,temp,recording,Log-loss,-0.00021992863766845394,-0.01585203491072184,0.014910254640998353,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,patient,F1 (macro),0.03918100357463583,0.010316904969943506,0.06747715536770486,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,patient,Accuracy,0.03661327231121281,0.016316067653276957,0.056499295416291576,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,patient,Weighted accuracy,-0.007547169811320753,-0.03911260210035,0.02326158614461237,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,patient,AUC,0.002339134279168875,-0.010741636497628508,0.016329700633554517,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,recording,AUC,0.004594474952065886,-0.008930807126713684,0.018074832099111666,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,recording,ECE,0.005624709961300331,-0.005936629667340183,0.013877532825514918,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,recording,Brier,-0.0049791966379198055,-0.008534378331467458,-0.0015336941601334843,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,mc,recording,Log-loss,-0.009711164387816384,-0.022013569416910052,0.003020291699059622,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,patient,F1 (macro),0.04752399220848902,0.02344282283513489,0.07180027419909275,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,patient,Accuracy,0.04233409610983985,0.0249919212690952,0.06067422285736761,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,patient,Weighted accuracy,0.008176100628930816,-0.019262229833104213,0.033591991747937006,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,patient,AUC,-0.0006269844459627638,-0.011755878139962667,0.00992749437678194,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,recording,AUC,7.943750101846447e-05,-0.011147650271073853,0.011187770775984882,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,recording,ECE,0.0019590619411861514,-0.01340749842065308,0.015125558897901585,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,recording,Brier,-0.002181314152431821,-0.00457533205015837,0.000451453801441826,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens,recording,Log-loss,-0.0034136391558965973,-0.013167182698755135,0.007859198340430952,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,patient,F1 (macro),0.04697429475244985,0.023462525257802288,0.07121831085288238,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,patient,Accuracy,0.042334096109839736,0.024446320762379157,0.061343118686868654,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,patient,Weighted accuracy,0.008176100628930816,-0.019938254332456565,0.03382966451728414,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,patient,AUC,-0.007917688195812178,-0.020915506968787464,0.004127220338799033,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,recording,AUC,-0.010127262950349714,-0.022086329490093655,0.0010053319843120376,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,recording,ECE,0.013571138363821887,0.0003318499601223907,0.0217132833226752,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,recording,Brier,-0.0006526903399034639,-0.0032204267634824667,0.0018901954578622224,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",murmur,ens_temp,recording,Log-loss,0.007498447757273152,-0.0032420195570452793,0.018417366846204535,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,patient,F1 (macro),0.0024701763356291817,-0.029180624643030204,0.03263932939543956,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,patient,Accuracy,0.0010615711252653925,-0.027692736589337137,0.028583730585883434,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,patient,Weighted accuracy,-0.005422993492407824,-0.03562376462641638,0.02229586099059115,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,patient,AUC,-0.02174481986860144,-0.04101575382617924,-0.004260411457125058,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,patient,Cost (c_outcome),54.465664866720545,-460.1496410348935,588.511389366085,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,recording,AUC,-0.009468932903010985,-0.02749627986353264,0.006935974670596098,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,recording,ECE,0.028558269125678985,0.010552219764724941,0.047886039255991206,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,recording,Brier,0.0099011169271149,0.005023700299841551,0.015182223619963424,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,single,recording,Log-loss,0.02335575667576717,0.011958566712600371,0.03698223036147725,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,patient,F1 (macro),0.056234662199439844,0.02453292528546272,0.08596782600214253,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,patient,Accuracy,0.03609341825902335,0.006348039215686363,0.06336132481855825,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,patient,Weighted accuracy,-0.049891540130151846,-0.08101372907466693,-0.01981620132154103,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,patient,AUC,-0.01530575409717716,-0.034179835415236906,0.0027582388000521093,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,patient,Cost (c_outcome),251.74045776084677,-302.7940996601997,880.0493357334899,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,recording,AUC,-0.005150900987436091,-0.022708065032852883,0.011508814737959111,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,recording,ECE,-0.008685916518087554,-0.028614974801513923,0.014397889614029638,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,recording,Brier,0.004081493979656292,0.000777249194541,0.007841299689689153,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,temp,recording,Log-loss,0.007160812558390517,-0.0025278883982075865,0.016280414549858426,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,patient,F1 (macro),-0.001043575377159045,-0.03189918170959971,0.028609849590220383,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,patient,Accuracy,0.002123142250530785,-0.025504782146652527,0.027631651914499705,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,patient,Weighted accuracy,0.015184381778741818,-0.013647639758988117,0.04007689849334051,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,patient,AUC,-0.021997509205111676,-0.04140038266357131,-0.004867106857504863,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,patient,Cost (c_outcome),-164.7546901366877,-656.4844348070894,349.5861033881736,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,recording,AUC,-0.01040706125689983,-0.027901962497403728,0.005388566242409856,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,recording,ECE,0.025450296536028212,0.008330240048055746,0.04474338192255175,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,recording,Brier,0.009258185468636104,0.004709553242438105,0.014382392988057954,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,mc,recording,Log-loss,0.020234252549094167,0.007511881153108249,0.034178689354427784,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,patient,F1 (macro),-0.010462811651852366,-0.036974294708639124,0.016761320242019123,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,patient,Accuracy,-0.018046709129511673,-0.0428269440323638,0.007564609895682331,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,patient,Weighted accuracy,-0.05965292841648584,-0.08724652254267787,-0.032717222364162905,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,patient,AUC,-0.028071077900512664,-0.046041539673356044,-0.011978185808802399,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,patient,Cost (c_outcome),872.1213763947235,345.2533633484903,1399.525866525752,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,recording,AUC,-0.01766514901192362,-0.033240241765363665,-0.003199864913931683,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,recording,ECE,0.035644232193466185,0.010840457337122834,0.0499084656457979,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,recording,Brier,0.007813242978065071,0.004148071922798651,0.011773360304911124,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens,recording,Log-loss,0.014097580876108795,0.003991362043153335,0.02387909316935452,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,patient,F1 (macro),-0.004366206035861353,-0.03353359835503168,0.024948398129771482,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,patient,Accuracy,-0.011677282377919318,-0.0385241495050631,0.017168304951774325,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,patient,Weighted accuracy,-0.05169920462762112,-0.08097853328974604,-0.02327262885202805,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,patient,AUC,-0.021248465814742823,-0.037496146876965605,-0.005853545591683052,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,patient,Cost (c_outcome),737.4424168511723,188.6522169223114,1324.545793923157,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,recording,AUC,-0.012672737285639446,-0.027142909644662105,0.0012830835482531718,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,recording,ECE,0.0015876069466741888,-0.019326218566311542,0.019690639462684404,n.s.
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,recording,Brier,0.004070426093032625,0.0012810757179349125,0.007038145552971556,"Joint, scratch"
+"Joint, Domain-SSL (system) − Joint, scratch",outcome,ens_temp,recording,Log-loss,0.005730522082125877,-0.0037625819928253784,0.01358005713901519,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,patient,F1 (macro),0.10296518477578198,0.07369411765775513,0.13228905757531303,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,patient,Accuracy,0.08924485125858128,0.06635756942727976,0.11328141252340339,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,patient,Weighted accuracy,0.049056603773584895,0.018546178645710253,0.07896848440855332,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,patient,AUC,0.04849483541658284,0.027878823900622237,0.07205234755040277,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,recording,AUC,0.036700804423514644,0.021519149230502778,0.052898621757748183,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,recording,ECE,-0.010091663179853303,-0.027028065423891287,0.003037335062841533,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,recording,Brier,-0.0165836611177448,-0.022334321215207537,-0.010945226338907906,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,single,recording,Log-loss,-0.0458846091781725,-0.06329281145169939,-0.029077589424882824,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,patient,F1 (macro),0.13430675638526224,0.1040079012411275,0.16821727257807617,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,patient,Accuracy,0.12128146453089239,0.09658439324437028,0.14715302699329066,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,patient,Weighted accuracy,0.0641509433962264,0.033766601454866006,0.09613998874630333,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,patient,AUC,0.037040311884570576,0.015412033490543547,0.060212508031885006,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,recording,AUC,0.02381970810452616,0.007360553642920814,0.041676139336416645,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,recording,ECE,-0.005432636556659761,-0.01778757018364426,0.007883464595827172,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,recording,Brier,-0.014769181874619508,-0.021030951006888034,-0.008765954193315327,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,temp,recording,Log-loss,-0.02940894040084696,-0.051539536645020576,-0.009074892170867804,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,patient,F1 (macro),0.07938341130942073,0.05205744098394577,0.10858605847534164,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,patient,Accuracy,0.06407322654462244,0.04474099956179802,0.08652288235595912,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,patient,Weighted accuracy,0.04276729559748427,0.014013328985542481,0.07339742160589476,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,patient,AUC,0.0492504320565893,0.028642596579997136,0.07288010377029029,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,recording,AUC,0.03679382098453621,0.02167508524067473,0.05307921806363926,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,recording,ECE,-0.028613325969845827,-0.041937098091508564,-0.010907584198441785,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,recording,Brier,-0.017426381886948797,-0.022643494735659554,-0.01210302173241966,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,mc,recording,Log-loss,-0.050760116885283924,-0.06696649285020344,-0.03502006907079392,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,patient,F1 (macro),0.07709013177543556,0.051503198807787476,0.10442156781490657,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,patient,Accuracy,0.06178489702517165,0.04238321861149122,0.08353121954038993,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,patient,Weighted accuracy,0.049056603773584895,0.023554324730402393,0.07596749875001162,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,patient,AUC,0.05029540613319394,0.03120907132364455,0.07101028725932529,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,recording,AUC,0.038150369078851054,0.024873288134852258,0.052720879718018795,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,recording,ECE,-0.009075776768455602,-0.0251849287674973,0.003871471286877234,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,recording,Brier,-0.0169804583633838,-0.022203921140566133,-0.012231620799589617,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens,recording,Log-loss,-0.04971674787304814,-0.06405160911316027,-0.03603580436247585,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,patient,F1 (macro),0.12799334427251674,0.09997248375852136,0.15523695734012546,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,patient,Accuracy,0.11441647597254001,0.09060754709897828,0.13829922605611086,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,patient,Weighted accuracy,0.07044025157232703,0.045790418380804325,0.09657328842962135,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,patient,AUC,0.039572364454805053,0.021570510687489306,0.06008466660475409,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,recording,AUC,0.027877131233467467,0.013557101860711624,0.04392788636337405,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,recording,ECE,-0.0019707065815091664,-0.015255713198648524,0.008091427967450627,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,recording,Brier,-0.015687302516928042,-0.021482987231742412,-0.010546928228236087,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",murmur,ens_temp,recording,Log-loss,-0.039694718402285833,-0.05704393490325925,-0.024309818158830435,"Joint, Domain-SSL (system)"
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,patient,F1 (macro),-0.015473027212380752,-0.04740299200035563,0.014579994184608541,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,patient,Accuracy,-0.011677282377919318,-0.04177131346858779,0.017004093485845972,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,patient,Weighted accuracy,0.007592190889370909,-0.023699322879693965,0.03830716872324298,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,patient,AUC,-0.003880586239260797,-0.03199245388722441,0.023113002428564646,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,patient,Cost (c_outcome),-24.55938944932859,-618.4199835003054,553.4973193801778,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,recording,AUC,-0.005450269591834145,-0.031542602714786754,0.019502225731354066,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,recording,ECE,0.04529796251380466,0.009393873023528298,0.07194295341894215,Shared frozen
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,recording,Brier,0.005200665205631699,-0.0019730715655849424,0.012934255646618405,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,single,recording,Log-loss,0.015517164209537304,-0.0021118313212911237,0.03526741611741946,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,patient,F1 (macro),0.002938297866644457,-0.02991939808667848,0.03200375801343562,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,patient,Accuracy,0.0010615711252653925,-0.030766186091578027,0.02887855288271408,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,patient,Weighted accuracy,-0.012653651482284922,-0.04540423309261027,0.017576565927773864,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,patient,AUC,-0.002192982456140302,-0.026811800738336906,0.020819136371166842,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,patient,Cost (c_outcome),194.1200328373634,-377.0858606852074,805.7241778259396,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,recording,AUC,-0.0035363916958029984,-0.025965094145315233,0.018496744134952676,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,recording,ECE,0.00620590305590394,-0.009264500628521027,0.02898911635353681,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,recording,Brier,-0.0013951974150576973,-0.006126683351715136,0.003141798762053229,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,temp,recording,Log-loss,-0.0050186899655878525,-0.015717477360638707,0.006084455188063127,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,patient,F1 (macro),-0.0018439999714103816,-0.036750179955623505,0.028470835880023658,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,patient,Accuracy,0.0,-0.03138737355012976,0.027664762491163238,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,patient,Weighted accuracy,0.007230657989877098,-0.02524055473509111,0.036785429689233505,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,patient,AUC,-0.00328947368421062,-0.031057384633366245,0.0236598643231882,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,patient,Cost (c_outcome),-65.08913456782102,-611.7594388574439,548.031193859883,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,recording,AUC,-0.005413849079801691,-0.03134616080739619,0.019026041938568737,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,recording,ECE,0.04159175645524857,0.004384172722674528,0.06628345525478146,Shared frozen
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,recording,Brier,0.004107410775014975,-0.0027391187285178684,0.011613855292578986,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,mc,recording,Log-loss,0.010501407349917002,-0.005340499640555318,0.02873068744447957,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,patient,F1 (macro),-0.0109518504075643,-0.040940389949180034,0.018884054464609248,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,patient,Accuracy,-0.013800424628450103,-0.04260306504245606,0.015031724009722013,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,patient,Weighted accuracy,-0.03217642805495302,-0.06299782766111517,0.0010736336631858648,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,patient,AUC,-0.01852754313767957,-0.03693779237879673,-0.0005620291084456277,Shared frozen
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,patient,Cost (c_outcome),525.7732740205465,-88.84449325846683,1098.3194644011362,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,recording,AUC,-0.012521051856405618,-0.029371045441693815,0.004532616842763229,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,recording,ECE,0.04449976838544504,0.011879202551027755,0.06118686771106835,Shared frozen
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,recording,Brier,0.0022548475952253177,-0.002761434995395405,0.007278306312694902,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens,recording,Log-loss,0.00503697823881788,-0.007650179104590118,0.017369739586877334,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,patient,F1 (macro),-0.012995133607923481,-0.04271347572279047,0.01621660339239494,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,patient,Accuracy,-0.014861995753715496,-0.0434840548808751,0.012808202960121032,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,patient,Weighted accuracy,-0.02819956616052055,-0.059492972987109836,0.0047048071234622076,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,patient,AUC,-0.015941989748032737,-0.03286150943391787,0.0009989025980474773,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,patient,Cost (c_outcome),483.0717039840456,-121.72466187785881,1084.7785501693693,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,recording,AUC,-0.010997793957556956,-0.02699144216954739,0.005628046153972368,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,recording,ECE,0.01438515520346665,-0.0025153472989789495,0.029381645920411332,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,recording,Brier,-0.0009708743413722465,-0.004430884755023281,0.0024017784044972584,n.s.
+"Joint, Domain-SSL (system) − Shared frozen",outcome,ens_temp,recording,Log-loss,-0.003187707102210502,-0.010741763470479743,0.004176235298610521,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,patient,F1 (macro),-0.014637160056677034,-0.04188077077555092,0.01433396743496205,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,patient,Accuracy,-0.013729977116704872,-0.034989141342970285,0.008990802313434779,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,patient,Weighted accuracy,0.0,-0.03086263464849605,0.03186911085770169,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,patient,AUC,-0.0007555966400063507,-0.01976082773630631,0.019343424720452813,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,recording,AUC,0.008698066885018063,-0.008992208719089023,0.02901166701745738,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,recording,ECE,-0.02294947945664752,-0.03442406297729183,-0.007875215757519751,"Joint, scratch"
+"Joint, scratch − Separate (per task)",murmur,single,recording,Brier,-0.0009088419605325915,-0.006330382245972695,0.004519593328190558,n.s.
+"Joint, scratch − Separate (per task)",murmur,single,recording,Log-loss,-0.045582467516726344,-0.08006852055189338,-0.014998310949875077,"Joint, scratch"
+"Joint, scratch − Separate (per task)",murmur,temp,patient,F1 (macro),-0.01341713888976237,-0.04029409585935881,0.013898277210391174,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,patient,Accuracy,-0.01258581235697942,-0.03267359364258231,0.007928875722987404,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,patient,Weighted accuracy,0.0006289308176100628,-0.029305872691583537,0.031191095311762833,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,patient,AUC,-0.004035207588119261,-0.021974557171322802,0.016787352347915518,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,recording,AUC,0.002724638389632217,-0.014065434416290839,0.02196070295693782,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,recording,ECE,-0.014924006663424298,-0.026307336800520158,0.0017417458869392899,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,recording,Brier,-0.0005234593855081016,-0.0060250020120715024,0.004960618961528719,n.s.
+"Joint, scratch − Separate (per task)",murmur,temp,recording,Log-loss,-0.021636249944427033,-0.0479259378614027,0.0027159545433790857,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,patient,F1 (macro),-0.01820497236314167,-0.04606715508312183,0.01088957900339461,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,patient,Accuracy,-0.017162471395881007,-0.038815005799191324,0.00459783341930873,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,patient,Weighted accuracy,0.0006289308176100628,-0.030251807146754035,0.03211580360612879,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,patient,AUC,-0.000723443591495343,-0.019867121715012807,0.01961998851501571,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,recording,AUC,0.010277311563384295,-0.007734390622771037,0.03072096537428755,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,recording,ECE,-0.025479320855843618,-0.036339853538984064,-0.00894773864028547,"Joint, scratch"
+"Joint, scratch − Separate (per task)",murmur,mc,recording,Brier,-0.001138019368952456,-0.006586170719361186,0.004201479403174163,n.s.
+"Joint, scratch − Separate (per task)",murmur,mc,recording,Log-loss,-0.04350177695646379,-0.07650674840998736,-0.014329655998129612,"Joint, scratch"
+"Joint, scratch − Separate (per task)",murmur,ens,patient,F1 (macro),-0.015379177066651928,-0.04058505335655736,0.009890464620727105,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,patient,Accuracy,-0.011441647597254079,-0.03229885124203647,0.008086366912957263,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,patient,Weighted accuracy,-0.01635220125786163,-0.03974763406940063,0.008217892466721246,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,patient,AUC,-0.00249989952172347,-0.01594411452975664,0.011869871670231293,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,recording,AUC,0.0022120288745131056,-0.010054759516802875,0.01548934246546499,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,recording,ECE,-0.007080835998542881,-0.01959353840506005,0.01217737944529444,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,recording,Brier,0.0016857436999249964,-0.0016823607121572788,0.004715012221887408,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens,recording,Log-loss,-0.010996156855983263,-0.030739367393624525,0.006592122942477425,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,patient,F1 (macro),-0.02344619427879957,-0.05002866983764138,0.0021380743127081625,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,patient,Accuracy,-0.0194508009153318,-0.03987480711293998,0.0,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,patient,Weighted accuracy,-0.01572327044025157,-0.039194483068288696,0.008366219765856048,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,patient,AUC,0.002154254250231191,-0.011240075189532888,0.01611743484519415,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,recording,AUC,0.0038068894718832347,-0.007685420439533658,0.01593052038868475,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,recording,ECE,-0.011034855017509207,-0.01865512924020486,0.0010749609081833818,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,recording,Brier,0.0005201256104982455,-0.002673154996847298,0.003637636200386787,n.s.
+"Joint, scratch − Separate (per task)",murmur,ens_temp,recording,Log-loss,-0.0066853355433594275,-0.019410026390486314,0.00524845370470222,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,patient,F1 (macro),0.007171505959957747,-0.021133818823809786,0.03433391463823261,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,patient,Accuracy,0.00849256900212314,-0.017222033379788577,0.03358528067867004,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,patient,Weighted accuracy,0.01590744757772955,-0.013952590043152325,0.046958069764771536,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,patient,AUC,0.03880586239260686,0.01660319419194734,0.05983863557819657,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,single,patient,Cost (c_outcome),-254.2876998373813,-815.7454930729518,284.06890186402467,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,recording,AUC,0.016535712913512857,-0.0018906259437278638,0.03569886934138832,n.s.
+"Joint, scratch − Separate (per task)",outcome,single,recording,ECE,-0.026211903871899957,-0.0455236466723315,-0.00685977871715627,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,single,recording,Brier,-0.012781203019771092,-0.018473441260502817,-0.007141092022450538,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,single,recording,Log-loss,-0.03540858383737244,-0.05214835499114721,-0.020493598880530425,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,temp,patient,F1 (macro),0.003030017728691603,-0.028265708173663043,0.03336770234982064,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,patient,Accuracy,0.007430997876857748,-0.019309238968899484,0.03481753299218956,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,patient,Weighted accuracy,0.022776572668112838,-0.007495034928124918,0.053526603472624314,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,patient,AUC,0.031198108439823957,0.009103819590925408,0.053174728521748565,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,temp,patient,Cost (c_outcome),-246.59907265755828,-779.8754851804873,275.0935732684441,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,recording,AUC,0.011269146783468575,-0.007548512130923918,0.031052535797815403,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,recording,ECE,0.00544431143901581,-0.012252400134363349,0.02942195191563831,n.s.
+"Joint, scratch − Separate (per task)",outcome,temp,recording,Brier,-0.005880094620435483,-0.010106176853193411,-0.001667388042831393,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,temp,recording,Log-loss,-0.013258073687386851,-0.022679971320415722,-0.004276147184612006,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,patient,F1 (macro),0.03762580555983153,0.010429585208585128,0.06546606433318156,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,patient,Accuracy,0.0286624203821656,0.003217028369368649,0.053954093123497006,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,patient,Weighted accuracy,0.0010845986984816536,-0.027387868320510843,0.03204195705749255,n.s.
+"Joint, scratch − Separate (per task)",outcome,mc,patient,AUC,0.03954588116381497,0.01795378959466953,0.06029958495633406,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,patient,Cost (c_outcome),-338.4411637318135,-868.4060561323745,168.37160525285708,n.s.
+"Joint, scratch − Separate (per task)",outcome,mc,recording,AUC,0.018098993353056314,0.0004510630491341958,0.03661793563248866,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,recording,ECE,-0.025589509840375245,-0.043385781529212734,-0.00613291340106494,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,recording,Brier,-0.0124399815712532,-0.01819877824570511,-0.007035170369875997,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,mc,recording,Log-loss,-0.03115117521755517,-0.0454211013331826,-0.01796449958749525,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,ens,patient,F1 (macro),-0.007298745362833481,-0.04026776813773428,0.025249267040160416,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,patient,Accuracy,0.0,-0.02950708100437311,0.030757839317059624,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,patient,Weighted accuracy,0.037599421547360734,0.007034021839477986,0.06988505884210837,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,ens,patient,AUC,0.017850696700599356,-0.0001749040192650514,0.03814804690976089,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,patient,Cost (c_outcome),-458.224777571766,-1083.3355995863021,113.43937731410988,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,recording,AUC,0.007378555602515435,-0.00863760485736899,0.024376666549658293,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,recording,ECE,-0.017147099439386984,-0.031043538276946784,0.0054667312630194255,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens,recording,Brier,-0.008799142909437396,-0.01379220041738025,-0.004030490215644586,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,ens,recording,Log-loss,-0.02285534185721705,-0.0357485830258183,-0.011330874684137723,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,ens_temp,patient,F1 (macro),0.0046384790350646465,-0.028606560766162196,0.035594143965620044,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,patient,Accuracy,0.006369426751592355,-0.024500734239640744,0.035458133403578423,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,patient,Weighted accuracy,0.015184381778741929,-0.012953565224791762,0.045623393705075475,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,patient,AUC,0.012368240560248545,-0.006432329411805562,0.03212141182243126,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,patient,Cost (c_outcome),-220.65713929401863,-779.9753971375476,330.90605330931845,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,recording,AUC,0.0034603488684827877,-0.013356555720686522,0.020851526433080643,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,recording,ECE,0.011200353784433952,-0.007996243537886175,0.03145003962874083,n.s.
+"Joint, scratch − Separate (per task)",outcome,ens_temp,recording,Brier,-0.00471468745771611,-0.008387884389972447,-0.001231696926688319,"Joint, scratch"
+"Joint, scratch − Separate (per task)",outcome,ens_temp,recording,Log-loss,-0.008738437390854115,-0.0167162188833868,-7.581685730600538e-05,"Joint, scratch"

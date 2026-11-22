@@ -1,0 +1,105 @@
+model,level,quantity,value,ci_low,ci_high,value (95% CI)
+joint_domain,patient,ratio conf-murmur & unc-outcome,0.5445859872611465,0.42925053732665147,0.6642767036271785,"0.545 [0.429, 0.664]"
+joint_domain,patient,ratio unc-murmur & conf-outcome,0.5254777070063694,0.4207551163793963,0.6453429956053218,"0.525 [0.421, 0.645]"
+joint_domain,patient,ratio both confident,1.6528662420382165,1.5194399286580182,1.8085736962981303,"1.653 [1.519, 1.809]"
+joint_domain,patient,ratio both uncertain,1.2993630573248407,1.165034391010218,1.441483155309986,"1.299 [1.165, 1.441]"
+joint_domain,patient,murmur acc | other uncertain,0.9454545454545454,0.875,1.0,"0.945 [0.875, 1.000]"
+joint_domain,patient,murmur acc | other confident,0.9941176470588236,0.9808886575208231,1.0,"0.994 [0.981, 1.000]"
+joint_domain,patient,outcome acc | other uncertain,0.6727272727272727,0.5434329710144927,0.7937169312169312,"0.673 [0.543, 0.794]"
+joint_domain,patient,outcome acc | other confident,0.791907514450867,0.7261785714285715,0.8509652032749858,"0.792 [0.726, 0.851]"
+joint_domain,patient,murmur acc drop,0.048663101604278114,-0.005847953216374213,0.12284642631949844,"0.049 [-0.006, 0.123]"
+joint_domain,patient,outcome acc drop,0.11918024172359432,-0.014007854856593487,0.2618787004532236,"0.119 [-0.014, 0.262]"
+joint_domain,patient,chi2 p-value (independence),2.1416539526885992e-23,,,2.1e-23
+joint_domain,patient,n discordant: conf-murmur & unc-outcome,57.0,,,57
+joint_domain,patient,n discordant: unc-murmur & conf-outcome,55.0,,,55
+joint_domain,recording,ratio conf-murmur & unc-outcome,0.5626773881988274,0.4827811699055608,0.6449318722119489,"0.563 [0.483, 0.645]"
+joint_domain,recording,ratio unc-murmur & conf-outcome,0.7331856876530176,0.6554771807072164,0.8128595829349117,"0.733 [0.655, 0.813]"
+joint_domain,recording,ratio both confident,1.5175238651422924,1.4225864699428894,1.6077604019058342,"1.518 [1.423, 1.608]"
+joint_domain,recording,ratio both uncertain,1.3043884908245547,1.21462578033008,1.3995889904316199,"1.304 [1.215, 1.400]"
+joint_domain,recording,murmur acc | other uncertain,0.96875,0.9285615627466457,0.9953525036664571,"0.969 [0.929, 0.995]"
+joint_domain,recording,murmur acc | other confident,0.9714285714285714,0.9537710777471802,0.9865925086541588,"0.971 [0.954, 0.987]"
+joint_domain,recording,outcome acc | other uncertain,0.7751937984496124,0.702772084187372,0.8400076045627376,"0.775 [0.703, 0.840]"
+joint_domain,recording,outcome acc | other confident,0.7303370786516854,0.6702254388109843,0.785958904109589,"0.730 [0.670, 0.786]"
+joint_domain,recording,murmur acc drop,0.002678571428571419,-0.03163681831996511,0.04532963735073578,"0.003 [-0.032, 0.045]"
+joint_domain,recording,outcome acc drop,-0.04485671979792705,-0.12893199733140862,0.04119493496967148,"-0.045 [-0.129, 0.041]"
+joint_domain,recording,chi2 p-value (independence),4.800430923764569e-54,,,4.8e-54
+joint_domain,recording,n discordant: conf-murmur & unc-outcome,198.0,,,198
+joint_domain,recording,n discordant: unc-murmur & conf-outcome,258.0,,,258
+joint_scratch,patient,ratio conf-murmur & unc-outcome,0.2388535031847134,0.15377480682693695,0.3264143166384523,"0.239 [0.154, 0.326]"
+joint_scratch,patient,ratio unc-murmur & conf-outcome,0.4394904458598727,0.3326507039046047,0.5484550408648612,"0.439 [0.333, 0.548]"
+joint_scratch,patient,ratio both confident,1.8439490445859874,1.6990348683627237,2.013739366014812,"1.844 [1.699, 2.014]"
+joint_scratch,patient,ratio both uncertain,1.6146496815286624,1.4870788938797048,1.7674321181172212,"1.615 [1.487, 1.767]"
+joint_scratch,patient,murmur acc | other uncertain,0.9565217391304348,0.8571428571428572,1.0,"0.957 [0.857, 1.000]"
+joint_scratch,patient,murmur acc | other confident,0.9896373056994818,0.9742268041237113,1.0,"0.990 [0.974, 1.000]"
+joint_scratch,patient,outcome acc | other uncertain,0.6521739130434783,0.5116279069767442,0.7941365007541479,"0.652 [0.512, 0.794]"
+joint_scratch,patient,outcome acc | other confident,0.772020725388601,0.7158418149327946,0.8270410065237651,"0.772 [0.716, 0.827]"
+joint_scratch,patient,murmur acc drop,0.03311556656904702,-0.020847259358288805,0.13371787888357445,"0.033 [-0.021, 0.134]"
+joint_scratch,patient,outcome acc drop,0.11984681234512273,-0.029485757510257334,0.2655902901997095,"0.120 [-0.029, 0.266]"
+joint_scratch,patient,chi2 p-value (independence),1.0067146221810674e-46,,,1e-46
+joint_scratch,patient,n discordant: conf-murmur & unc-outcome,25.0,,,25
+joint_scratch,patient,n discordant: unc-murmur & conf-outcome,46.0,,,46
+joint_scratch,recording,ratio conf-murmur & unc-outcome,0.3324911839356708,0.27384746062382276,0.39344622919707706,"0.332 [0.274, 0.393]"
+joint_scratch,recording,ratio unc-murmur & conf-outcome,0.5854118281260529,0.507804028814623,0.6659707538410009,"0.585 [0.508, 0.666]"
+joint_scratch,recording,ratio both confident,1.6539305047056443,1.5578011664559994,1.749372211659429,"1.654 [1.558, 1.749]"
+joint_scratch,recording,ratio both uncertain,1.5914107949057748,1.5015234734727798,1.6991973444016883,"1.591 [1.502, 1.699]"
+joint_scratch,recording,murmur acc | other uncertain,0.9826086956521739,0.954196722459556,1.0,"0.983 [0.954, 1.000]"
+joint_scratch,recording,murmur acc | other confident,0.9878260869565217,0.977558962264151,0.9967376225148874,"0.988 [0.978, 0.997]"
+joint_scratch,recording,outcome acc | other uncertain,0.7621359223300971,0.6868131868131868,0.828894990527805,"0.762 [0.687, 0.829]"
+joint_scratch,recording,outcome acc | other confident,0.7010309278350515,0.6470461460446246,0.7531018518518519,"0.701 [0.647, 0.753]"
+joint_scratch,recording,murmur acc drop,0.00521739130434784,-0.01724220663180889,0.035075035795531236,"0.005 [-0.017, 0.035]"
+joint_scratch,recording,outcome acc drop,-0.061104994495045584,-0.1464451671606719,0.020206420296055363,"-0.061 [-0.146, 0.020]"
+joint_scratch,recording,chi2 p-value (independence),3.670704304993641e-114,,,3.7e-114
+joint_scratch,recording,n discordant: conf-murmur & unc-outcome,117.0,,,117
+joint_scratch,recording,n discordant: unc-murmur & conf-outcome,206.0,,,206
+separate,patient,ratio conf-murmur & unc-outcome,0.5445859872611465,0.43326349009977894,0.6649625455400718,"0.545 [0.433, 0.665]"
+separate,patient,ratio unc-murmur & conf-outcome,0.6687898089171974,0.552743063509431,0.7941582164323884,"0.669 [0.553, 0.794]"
+separate,patient,ratio both confident,1.519108280254777,1.3947969042123571,1.669034862746295,"1.519 [1.395, 1.669]"
+separate,patient,ratio both uncertain,1.2802547770700636,1.1547979141211382,1.4132014273167672,"1.280 [1.155, 1.413]"
+separate,patient,murmur acc | other uncertain,0.9464285714285714,0.8775420694593626,1.0,"0.946 [0.878, 1.000]"
+separate,patient,murmur acc | other confident,0.9935897435897436,0.9793103448275862,1.0,"0.994 [0.979, 1.000]"
+separate,patient,outcome acc | other uncertain,0.6571428571428571,0.536188155922039,0.7678571428571428,"0.657 [0.536, 0.768]"
+separate,patient,outcome acc | other confident,0.7672955974842768,0.6953609913793103,0.8273647354305904,"0.767 [0.695, 0.827]"
+separate,patient,murmur acc drop,0.047161172161172216,-0.00666666666666671,0.1158902860539524,"0.047 [-0.007, 0.116]"
+separate,patient,outcome acc drop,0.11015274034141964,-0.022185209980276798,0.23557889216483394,"0.110 [-0.022, 0.236]"
+separate,patient,chi2 p-value (independence),6.704684581767867e-16,,,6.7e-16
+separate,patient,n discordant: conf-murmur & unc-outcome,57.0,,,57
+separate,patient,n discordant: unc-murmur & conf-outcome,70.0,,,70
+separate,recording,ratio conf-murmur & unc-outcome,0.6905586127894701,0.6215929766773882,0.7641835573761504,"0.691 [0.622, 0.764]"
+separate,recording,ratio unc-murmur & conf-outcome,0.8553833022618539,0.7755182759503226,0.9441839875825742,"0.855 [0.776, 0.944]"
+separate,recording,ratio both confident,1.3242811257608769,1.2365353169593594,1.4074439243669148,"1.324 [1.237, 1.407]"
+separate,recording,ratio both uncertain,1.2532360009882977,1.1750551390046289,1.3381388606021323,"1.253 [1.175, 1.338]"
+separate,recording,murmur acc | other uncertain,0.9708333333333333,0.9483547838756679,0.9915263176714583,"0.971 [0.948, 0.992]"
+separate,recording,murmur acc | other confident,0.986870897155361,0.9738079611319468,0.9977478742787732,"0.987 [0.974, 0.998]"
+separate,recording,outcome acc | other uncertain,0.7508305647840532,0.6925504107542942,0.8057479021332524,"0.751 [0.693, 0.806]"
+separate,recording,outcome acc | other confident,0.7274678111587982,0.6666342412451363,0.780440338834526,"0.727 [0.667, 0.780]"
+separate,recording,murmur acc drop,0.0160375638220277,-0.005018460438420999,0.03933802844289237,"0.016 [-0.005, 0.039]"
+separate,recording,outcome acc drop,-0.023362753625254973,-0.099333447452246,0.0483213395132,"-0.023 [-0.099, 0.048]"
+separate,recording,chi2 p-value (independence),1.38815249209339e-25,,,1.4e-25
+separate,recording,n discordant: conf-murmur & unc-outcome,243.0,,,243
+separate,recording,n discordant: unc-murmur & conf-outcome,301.0,,,301
+frozen_shared,patient,ratio conf-murmur & unc-outcome,0.4777070063694268,0.3685095750128008,0.5977582750163976,"0.478 [0.369, 0.598]"
+frozen_shared,patient,ratio unc-murmur & conf-outcome,0.6878980891719745,0.5659257792097595,0.8125387382999785,"0.688 [0.566, 0.813]"
+frozen_shared,patient,ratio both confident,1.605095541401274,1.4730701925336085,1.7639199790846645,"1.605 [1.473, 1.764]"
+frozen_shared,patient,ratio both uncertain,1.394904458598726,1.266421416136241,1.535777979179345,"1.395 [1.266, 1.536]"
+frozen_shared,patient,murmur acc | other uncertain,0.9777777777777777,0.9272616407982261,1.0,"0.978 [0.927, 1.000]"
+frozen_shared,patient,murmur acc | other confident,0.9879518072289156,0.9689293576539036,1.0,"0.988 [0.969, 1.000]"
+frozen_shared,patient,outcome acc | other uncertain,0.7361111111111112,0.6197015425888666,0.835487194583456,"0.736 [0.620, 0.835]"
+frozen_shared,patient,outcome acc | other confident,0.7440476190476191,0.6790067340067341,0.8081488124690747,"0.744 [0.679, 0.808]"
+frozen_shared,patient,murmur acc drop,0.010174029451137878,-0.024691358024691357,0.06079595588235293,"0.010 [-0.025, 0.061]"
+frozen_shared,patient,outcome acc drop,0.007936507936507908,-0.10944387369825964,0.13086868531455575,"0.008 [-0.109, 0.131]"
+frozen_shared,patient,chi2 p-value (independence),1.610574004712392e-22,,,1.6e-22
+frozen_shared,patient,n discordant: conf-murmur & unc-outcome,50.0,,,50
+frozen_shared,patient,n discordant: unc-murmur & conf-outcome,72.0,,,72
+frozen_shared,recording,ratio conf-murmur & unc-outcome,0.44047977358999124,0.37435267652531534,0.5133134432378513,"0.440 [0.374, 0.513]"
+frozen_shared,recording,ratio unc-murmur & conf-outcome,0.7189766626985018,0.6296248726976253,0.8022015280025712,"0.719 [0.630, 0.802]"
+frozen_shared,recording,ratio both confident,1.662455919678354,1.5706693133289857,1.7593616045346867,"1.662 [1.571, 1.759]"
+frozen_shared,recording,ratio both uncertain,1.3299647357426831,1.2420919496456087,1.4199076218836888,"1.330 [1.242, 1.420]"
+frozen_shared,recording,murmur acc | other uncertain,0.935483870967742,0.8924003259304176,0.9722222222222222,"0.935 [0.892, 0.972]"
+frozen_shared,recording,murmur acc | other confident,0.9773913043478261,0.9604406779661018,0.9908613020957528,"0.977 [0.960, 0.991]"
+frozen_shared,recording,outcome acc | other uncertain,0.7905138339920948,0.7198495070057084,0.8515734375,"0.791 [0.720, 0.852]"
+frozen_shared,recording,outcome acc | other confident,0.6974358974358974,0.6421079413285086,0.752067881613336,"0.697 [0.642, 0.752]"
+frozen_shared,recording,murmur acc drop,0.04190743338008407,0.000611249543752046,0.08728200391677311,"0.042 [0.001, 0.087]"
+frozen_shared,recording,outcome acc drop,-0.09307793655619745,-0.1731690964123658,-0.011088549041282748,"-0.093 [-0.173, -0.011]"
+frozen_shared,recording,chi2 p-value (independence),3.733862145895131e-88,,,3.7e-88
+frozen_shared,recording,n discordant: conf-murmur & unc-outcome,155.0,,,155
+frozen_shared,recording,n discordant: unc-murmur & conf-outcome,253.0,,,253

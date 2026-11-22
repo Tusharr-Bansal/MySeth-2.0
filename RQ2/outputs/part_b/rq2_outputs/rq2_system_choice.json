@@ -1,0 +1,19 @@
+{
+  "system_model": "one shared encoder fine-tuned jointly on murmur + outcome (RQ3, methods document)",
+  "init_corpus": "domain",
+  "init_encoders": [
+    "byola_domain_f0.pt",
+    "byola_domain_f1.pt",
+    "byola_domain_f2.pt"
+  ],
+  "rule": "initialise from Domain-SSL unless CirCor-SSL fine-tuned has higher murmur weighted accuracy (3-seed temperature-scaled ensemble, patient level) with the 95% patient-group bootstrap CI of the difference above zero",
+  "murmur_wacc_circor_ft_minus_domain_ft": {
+    "point": 0.010691823899371067,
+    "ci": [
+      -0.013051083138173363,
+      0.034507455781005135
+    ],
+    "circor_clearly_better": false
+  },
+  "note": "replaces the first RQ2 run's frozen-vs-per-task rule; decided before this run (see report)"
+}

@@ -1,0 +1,7 @@
+task,decision,verdict (section-14 rule)
+murmur,all decisions,honest uncertainty
+murmur,Present,mixed (less consistent but sharper when uncertain)
+murmur,Absent,honest uncertainty
+outcome,all decisions,honest uncertainty
+outcome,Abnormal,honest uncertainty
+outcome,Normal,honest uncertainty

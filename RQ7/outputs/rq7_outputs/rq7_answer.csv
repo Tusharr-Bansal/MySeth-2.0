@@ -1,0 +1,8 @@
+head,question,answer,evidence
+murmur,"transfers (AUC, no gates, above 0.5)",True,"0.767 [0.739, 0.793]"
+murmur,SQA gate contributes (full − SQA gate),contributes,
+murmur,confidence gate contributes (full − confidence gate),mixed,
+outcome,"transfers (AUC, no gates, above 0.5)",True,"0.668 [0.635, 0.700]"
+outcome,SQA gate contributes (full − SQA gate),no measurable contribution,
+outcome,confidence gate contributes (full − confidence gate),harmful,
+—,SQA separates clean from noisy (AUROC above 0.5),True,"0.551 [0.515, 0.586]"

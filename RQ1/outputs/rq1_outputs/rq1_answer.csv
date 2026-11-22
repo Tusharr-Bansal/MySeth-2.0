@@ -1,0 +1,9 @@
+task,comparison,Δ entropy,Δ accuracy,Δ overconfidence gap,"partial ρ, passed",verdict
+murmur,B: borderline − high (thirds),"+0.0480 [+0.0090, +0.0867] *","-0.030 [-0.070, +0.013]","+0.003 [-0.029, +0.031]","-0.112 [-0.166, -0.052]",reflects quality risk
+murmur,B (sensitivity): lower − upper half,"+0.0346 [+0.0040, +0.0644] *","-0.013 [-0.044, +0.021]","-0.006 [-0.034, +0.018]","-0.112 [-0.166, -0.052]",reflects quality risk
+murmur,"B (sensitivity): borderline − high, without Unknown","+0.0464 [+0.0073, +0.0859] *","-0.030 [-0.070, +0.013]","+0.003 [-0.029, +0.031]","-0.112 [-0.166, -0.052]",reflects quality risk
+murmur,C: passed human-Poor − passed human-Good,"+0.0569 [+0.0013, +0.1151] *","-0.047 [-0.124, +0.024]","+0.021 [-0.036, +0.080]",n/a,reflects quality risk
+outcome,B: borderline − high (thirds),"+0.0005 [-0.0200, +0.0198]","-0.008 [-0.067, +0.056]","+0.005 [-0.052, +0.058]","-0.055 [-0.105, -0.006]",blind
+outcome,B (sensitivity): lower − upper half,"+0.0050 [-0.0121, +0.0205]","-0.017 [-0.065, +0.036]","+0.011 [-0.037, +0.057]","-0.055 [-0.105, -0.006]",blind
+outcome,"B (sensitivity): borderline − high, without Unknown","+0.0001 [-0.0207, +0.0198]","-0.013 [-0.071, +0.053]","+0.010 [-0.047, +0.063]","-0.055 [-0.105, -0.006]",blind
+outcome,C: passed human-Poor − passed human-Good,"+0.0116 [-0.0181, +0.0391]","-0.079 [-0.173, +0.019]","+0.079 [-0.010, +0.166]",n/a,blind

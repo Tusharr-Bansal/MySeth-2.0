@@ -1,0 +1,5 @@
+decision type,n,Grad-CAM systole enrichment (95% CI),median entropy
+correct Present (target),432,"1.674 [1.618, 1.731]",0.315
+false Present (Absent patients),248,"1.374 [1.332, 1.418]",0.783
+correct Absent (Absent patients),2137,"1.108 [1.095, 1.121]",0.236
+missed (target),64,"0.989 [0.922, 1.062]",0.41

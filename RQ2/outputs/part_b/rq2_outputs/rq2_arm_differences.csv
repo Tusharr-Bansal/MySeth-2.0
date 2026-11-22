@@ -1,0 +1,681 @@
+comparison,task,method,level,metric,difference,ci_low,ci_high,verdict
+CirCor-SSL fine-tuned − Scratch,murmur,single,patient,F1 (macro),0.04050788734079469,0.013491201106036374,0.0700448982480936,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,single,patient,Accuracy,0.03775743707093826,0.018158618233435737,0.060028456922243074,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,single,patient,Weighted accuracy,-0.004402515723270439,-0.03401953441927233,0.02372177419354841,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,single,patient,AUC,-0.0062939592460108384,-0.021984398710551807,0.007840443036624498,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,single,recording,AUC,-0.007731237812793501,-0.02240116146380646,0.007532576461652361,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,single,recording,ECE,0.012065956854143682,-0.004434175432804579,0.023066937232970975,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,single,recording,Brier,-0.0007761047726208975,-0.006588496030272045,0.005317935013665293,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,single,recording,Log-loss,0.026279322366260183,-0.0008659210616506294,0.05385570578018834,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,patient,F1 (macro),0.04014062524398976,0.014356717353725143,0.06930052113219196,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,temp,patient,Accuracy,0.03775743707093815,0.018161180476730987,0.05923493935216266,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,temp,patient,Weighted accuracy,-0.00691823899371069,-0.036089170186064924,0.021608621261044358,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,patient,AUC,-0.00786142036091797,-0.02402803440215354,0.00630081213396456,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,recording,AUC,-0.005029683825166997,-0.020394856893685347,0.00988213076880597,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,recording,ECE,0.015650513804702396,-0.0023863600984261033,0.027272876581887984,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,recording,Brier,0.00023730442350849978,-0.005636318489979192,0.006203091181169352,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,temp,recording,Log-loss,0.008429401608447518,-0.012480558854592042,0.029835766415159296,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,patient,F1 (macro),0.04050788734079469,0.013491201106036374,0.0700448982480936,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,mc,patient,Accuracy,0.03775743707093826,0.018158618233435737,0.060028456922243074,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,mc,patient,Weighted accuracy,-0.004402515723270439,-0.03401953441927233,0.02372177419354841,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,patient,AUC,-0.006872714119207313,-0.022475918308761646,0.0068964860213625145,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,recording,AUC,-0.00883249957904908,-0.02339740674655933,0.005959900996175803,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,recording,ECE,0.010809520912103195,-0.006085777616212527,0.023449787501819048,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,recording,Brier,-0.0005559449193665161,-0.00615315802553785,0.005289378726446018,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,mc,recording,Log-loss,0.023315216245341386,-0.0023090339378506277,0.04903857184812453,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,patient,F1 (macro),0.03543595448111847,0.00799841237837634,0.06197348509887983,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,ens,patient,Accuracy,0.028604118993134975,0.00809201885446465,0.048703161860293706,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,ens,patient,Weighted accuracy,0.01823899371069182,-0.014139044792897914,0.05067656078379336,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,patient,AUC,0.007748884691129665,-0.004607301124042363,0.018898895221524825,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,recording,AUC,-0.007300781610693807,-0.021237425049024615,0.006271271107542425,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,recording,ECE,0.004088601373317419,-0.013551582067593762,0.018625968659183284,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,recording,Brier,-0.0007625902021924091,-0.004251063689564697,0.002819800944177415,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens,recording,Log-loss,0.020102684741135912,-0.0013532226085815708,0.042238445890296336,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,patient,F1 (macro),0.03295756129826799,0.0066705135858791545,0.05889783306314644,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,patient,Accuracy,0.02631578947368418,0.008092018854464653,0.04571821756225425,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,patient,Weighted accuracy,0.016981132075471694,-0.014238669405284668,0.049213052695336185,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,patient,AUC,0.0012861219404364244,-0.011902537687268941,0.013219900843890492,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,recording,AUC,-0.00711339058265037,-0.01930110236920918,0.005069738922667658,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,recording,ECE,0.01278125829372221,0.00048478689967607834,0.020278611742731645,Scratch
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,recording,Brier,0.0008508872693761133,-0.002924221778310959,0.00454585588531564,n.s.
+CirCor-SSL fine-tuned − Scratch,murmur,ens_temp,recording,Log-loss,0.011003427346582051,-0.002879149242032373,0.024366490263805447,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,patient,F1 (macro),-0.01874362366253568,-0.04893838691262721,0.013048268743511853,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,patient,Accuracy,-0.02016985138004246,-0.047571229888558414,0.00843014854632681,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,patient,Weighted accuracy,-0.028561099060014472,-0.05657015934003098,0.0010423908233781142,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,patient,AUC,0.000379034004765022,-0.02709004660290075,0.030188584432821818,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,patient,Cost (c_outcome),458.1640941843507,-98.44246993525098,990.2236323645395,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,recording,AUC,0.018194647225317273,-0.007772700409386792,0.04344621385305337,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,recording,ECE,0.030550599402934572,8.01107448768992e-05,0.050711848194733636,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,single,recording,Brier,0.0023431315430819666,-0.005898084494008731,0.00986188447268048,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,single,recording,Log-loss,0.0011816586125399375,-0.02265953782809158,0.023361180136144688,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,patient,F1 (macro),-0.060574829960043375,-0.09159133648473876,-0.02869714972035169,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,temp,patient,Accuracy,-0.04564755838641188,-0.07312617571239462,-0.016982896037772647,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,temp,patient,Weighted accuracy,-0.00397686189443236,-0.032423892922371675,0.02670484616932483,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,patient,AUC,-0.011515414049527162,-0.0358775757808736,0.016231025208506892,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,patient,Cost (c_outcome),616.6097355222064,45.807873458013226,1142.8468529202446,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,temp,recording,AUC,0.0005799266146694348,-0.019809431633613372,0.02329192017093115,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,recording,ECE,0.023570161974382782,-0.007204651009831517,0.0433597850859796,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,recording,Brier,0.0006781755934877065,-0.004913350003449104,0.00623947220803312,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,temp,recording,Log-loss,-0.004526884209361537,-0.023084714260465145,0.012842185093420508,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,mc,patient,F1 (macro),-0.0417313137307781,-0.07345047570365956,-0.009825358950829179,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,mc,patient,Accuracy,-0.03715498938428874,-0.06526960257787322,-0.008637229877224846,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,mc,patient,Weighted accuracy,-0.030007230657989936,-0.05986461714148338,-0.0007515056986608513,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,mc,patient,AUC,-6.76846437079881e-05,-0.027788495737948445,0.02996822575789875,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,mc,patient,Cost (c_outcome),698.6878728541706,158.53869649898007,1249.451542773747,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,mc,recording,AUC,0.018173835504155855,-0.007698596059114029,0.04393285298618463,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,mc,recording,ECE,0.02458391309506968,-0.006712898537255942,0.04437526316291442,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,mc,recording,Brier,0.002597632724768262,-0.00509947826451972,0.009736729541051054,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,mc,recording,Log-loss,0.008064573414029108,-0.011584683131933135,0.02630880141083551,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,patient,F1 (macro),-0.007180157252992814,-0.03609728152803272,0.023315307711731723,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,patient,Accuracy,-0.01273885350318471,-0.04167212041884824,0.01696998439826967,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,patient,Weighted accuracy,-0.049168474331164114,-0.08068291797332726,-0.01690709149652016,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens,patient,AUC,-0.021898238394339686,-0.04425646746994472,0.0012933350389812326,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,patient,Cost (c_outcome),773.0034268209802,149.02038942818413,1356.50999332504,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens,recording,AUC,-0.011582523277109624,-0.03145502488240291,0.010120699257873598,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,recording,ECE,0.02912242832718552,-0.00031818104798974874,0.051394409805042486,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens,recording,Brier,0.008926937831083531,0.0034895950673067997,0.014458050138755561,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens,recording,Log-loss,0.01859358084461149,0.00410619385933027,0.03256158021838036,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,patient,F1 (macro),-0.028650356669884136,-0.057004855558093995,0.0020087513462163495,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Accuracy,-0.030785562632696384,-0.057849224095448466,-0.0010604173032335157,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Weighted accuracy,-0.04663774403470722,-0.0798870339887723,-0.013886944755505738,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,patient,AUC,-0.019678182080716256,-0.04064659160145738,0.002997054857311307,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Cost (c_outcome),816.5133642385026,200.67363897361744,1419.1616315053116,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,recording,AUC,-0.010656401685429251,-0.030421487380178466,0.008978715699090015,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,recording,ECE,0.006838655355112619,-0.018611222670403105,0.023504092710083798,n.s.
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,recording,Brier,0.0038874321488368835,0.0003128285658281542,0.007593977970108008,Scratch
+CirCor-SSL fine-tuned − Scratch,outcome,ens_temp,recording,Log-loss,0.0014800619205043164,-0.01564985067315441,0.014438040217198234,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,patient,F1 (macro),0.017655764607557356,-0.008677278677173675,0.04576253814436806,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,patient,Accuracy,0.01830663615560646,-0.0022832356352465166,0.041199444036338434,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,patient,Weighted accuracy,-0.007547169811320753,-0.034639362965446036,0.018751468685711904,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,patient,AUC,-0.0005224870383022662,-0.017811571466970662,0.015718333045552244,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,recording,AUC,-0.009446952044191659,-0.02622039839864405,0.006611279243490438,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,recording,ECE,0.020658464912203342,0.0023908789283143307,0.03145721102816188,Scratch
+Domain-SSL fine-tuned − Scratch,murmur,single,recording,Brier,0.002509576144897288,-0.003893893880103049,0.008750084684699951,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,single,recording,Log-loss,0.04664625174538489,0.01530666856758811,0.07880350366643601,Scratch
+Domain-SSL fine-tuned − Scratch,murmur,temp,patient,F1 (macro),0.018589639183445805,-0.008307415966975236,0.04766947340872232,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,patient,Accuracy,0.0194508009153318,-0.0011393800940129816,0.042534881403228954,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,patient,Weighted accuracy,-0.009433962264150941,-0.0381372793872794,0.02008533134219988,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,patient,AUC,0.0031108074434306188,-0.01334549398237699,0.019407061039372987,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,recording,AUC,-0.0036337564568430514,-0.0199001985750683,0.01157551628859561,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,recording,ECE,0.016222779035583505,-0.004040457784867438,0.029415879356944553,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,recording,Brier,0.001959981807455616,-0.004377782034596108,0.008168535004836911,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,temp,recording,Log-loss,0.022359132108388413,-0.0024092054568642537,0.04587013101262445,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,patient,F1 (macro),0.019893742909253498,-0.0074461074157464386,0.04888553078000333,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,patient,Accuracy,0.020594965675057253,0.0,0.04357923245452345,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,patient,Weighted accuracy,-0.008805031446540879,-0.03687946727719462,0.01847310912733966,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,patient,AUC,-0.0006269844459628748,-0.017884116072638966,0.01554601296960988,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,recording,AUC,-0.010534634750443805,-0.027033003693753284,0.004686164733172343,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,recording,ECE,0.020069240232725848,0.0010837916523927403,0.0324075579390158,Scratch
+Domain-SSL fine-tuned − Scratch,murmur,mc,recording,Brier,0.002700505570755629,-0.003745109249511154,0.008815450575626292,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,mc,recording,Log-loss,0.0433008978496473,0.013533738225927308,0.07321488332091973,Scratch
+Domain-SSL fine-tuned − Scratch,murmur,ens,patient,F1 (macro),0.00018517329079914546,-0.0262715857993536,0.026732653494672663,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,patient,Accuracy,-0.0022883295194507935,-0.022171658239336218,0.018287287024901764,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,patient,Weighted accuracy,0.01132075471698113,-0.017237415881561167,0.03909801519488121,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,patient,AUC,0.007025441099634322,-0.0047390993852063435,0.018637140679257324,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,recording,AUC,-0.0017367617744028507,-0.012464436945141513,0.00877842380568808,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,recording,ECE,0.003777229828663374,-0.013018495367536673,0.017818884760299105,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,recording,Brier,-0.001404184009943646,-0.0044010982531531625,0.0016877875093780016,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens,recording,Log-loss,0.009736778595099416,-0.006658680469761513,0.026851628972080224,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,patient,F1 (macro),-0.0010029386876202473,-0.02526607305993614,0.0271747752545478,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,patient,Accuracy,-0.0022883295194507935,-0.02137656900030345,0.020385628770194293,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,patient,Weighted accuracy,0.0062893081761006275,-0.019691626384539734,0.032661859119452116,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,patient,AUC,0.0022105220851251772,-0.009533522095677463,0.012895079438863494,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,recording,AUC,-0.0020280326114704428,-0.012020187316677899,0.007082403017979698,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,recording,ECE,0.006432597495859043,-0.0075146314257865205,0.016178623662447742,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,recording,Brier,-0.0004142349081220631,-0.003631604036701738,0.0029574867888258615,n.s.
+Domain-SSL fine-tuned − Scratch,murmur,ens_temp,recording,Log-loss,0.004438249849205211,-0.0072944961749848505,0.016159162843182032,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,patient,F1 (macro),0.003124568365238889,-0.028159738907854656,0.03390534009092076,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,patient,Accuracy,-0.007430997876857748,-0.036286019210245435,0.02132481826055766,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,patient,Weighted accuracy,-0.050253073029645656,-0.07973908520420149,-0.018613492513211195,Scratch
+Domain-SSL fine-tuned − Scratch,outcome,single,patient,AUC,0.004255107934445279,-0.01967985702408339,0.03195119503759747,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,patient,Cost (c_outcome),545.5914420562713,-24.35504668718004,1103.5301657292325,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,recording,AUC,0.022869680203890796,0.0008187011930983009,0.0483862125562541,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Scratch,outcome,single,recording,ECE,0.023702644019246308,-0.007475624601267995,0.046780748901653825,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,recording,Brier,-0.0014711440248299512,-0.009142909009404563,0.005729673621237543,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,single,recording,Log-loss,-0.009649403159313508,-0.03309964180455478,0.010384654554238126,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,patient,F1 (macro),-0.04208037062792569,-0.07437482082643863,-0.009124052930811638,Scratch
+Domain-SSL fine-tuned − Scratch,outcome,temp,patient,Accuracy,-0.03609341825902335,-0.06562070599384039,-0.005287041852262169,Scratch
+Domain-SSL fine-tuned − Scratch,outcome,temp,patient,Weighted accuracy,-0.0195227765726681,-0.05211169167337822,0.014988956672545585,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,patient,AUC,-0.006439065771424501,-0.02784278035284864,0.01661827376376032,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,patient,Cost (c_outcome),569.2431144968741,-65.12178785911651,1142.2630917354868,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,recording,AUC,0.0073545420780982695,-0.010349898739866411,0.026589177797806517,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,recording,ECE,0.013348626181320995,-0.017750514050601768,0.035048570749427584,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,recording,Brier,-0.0033994425116111726,-0.008349365148911858,0.0018245417359647258,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,temp,recording,Log-loss,-0.013045010577365623,-0.025932879504208504,0.0001402962699440585,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,patient,F1 (macro),-0.02763965646235922,-0.057699986137732195,0.004435213947070866,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,patient,Accuracy,-0.026539278131634814,-0.05425966189059702,0.0021190397590579303,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,patient,Weighted accuracy,-0.02783803326102685,-0.058601643095622186,0.0057510497518768735,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,patient,AUC,0.0046792650350155895,-0.019062399812214668,0.03167616479052777,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,patient,Cost (c_outcome),535.2991740115467,-33.530904698613085,1102.620773615945,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,recording,AUC,0.02297533971132537,0.0010004404580873317,0.04797541305906771,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Scratch,outcome,mc,recording,ECE,0.01789122458785828,-0.010685764718239574,0.04108868975910378,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,recording,Brier,-0.000779823942996638,-0.008235206342794723,0.006095851311467089,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,mc,recording,Log-loss,-0.004012716107035352,-0.021709339053629522,0.012277441623773441,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,patient,F1 (macro),0.0011160129489917736,-0.025187726026287636,0.029214927778759198,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,patient,Accuracy,-0.002123142250530785,-0.02786859201287564,0.02478515116430455,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,patient,Weighted accuracy,-0.020968908170643452,-0.05186655337055916,0.007861132549917767,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,patient,AUC,-0.0028743412028012782,-0.02214912446050871,0.017301827078032902,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,patient,Cost (c_outcome),293.44042869250734,-248.3836085777079,831.2339606467839,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,recording,AUC,0.0038409632304914343,-0.013798684545568034,0.022237440560394443,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,recording,ECE,0.013299142587867796,-0.01418844378740882,0.03685378763345308,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,recording,Brier,0.0033753418707199445,-0.0014519829061031247,0.008267736999135205,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens,recording,Log-loss,0.008255733031798385,-0.0036423380076355065,0.020696820821247866,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,patient,F1 (macro),-0.015766308379262073,-0.04225796664142245,0.012608817330217084,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Accuracy,-0.013800424628450103,-0.039203290236129174,0.013599754755458635,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Weighted accuracy,-0.006146059291395556,-0.034351632276397516,0.023670872069184983,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,patient,AUC,-0.006240524149880966,-0.02431347968079369,0.01184978326511571,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,patient,Cost (c_outcome),182.04466114036586,-357.64727051702266,682.2962123155928,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,recording,AUC,5.363020453119649e-05,-0.01684370045560512,0.016847429437795193,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,recording,ECE,-0.0019209150856486848,-0.022183505319542614,0.014423980685353697,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,recording,Brier,0.0009303508855743603,-0.002373415702247342,0.004150019950451943,n.s.
+Domain-SSL fine-tuned − Scratch,outcome,ens_temp,recording,Log-loss,-0.004367345876150619,-0.01793625125625231,0.006744761675485946,n.s.
+CirCor-SSL frozen − Scratch,murmur,single,patient,F1 (macro),0.0023010787937390864,-0.024869812250373192,0.03272824311083222,n.s.
+CirCor-SSL frozen − Scratch,murmur,single,patient,Accuracy,0.008009153318077833,-0.012501426940639226,0.0318961463710268,n.s.
+CirCor-SSL frozen − Scratch,murmur,single,patient,Weighted accuracy,-0.025786163522012573,-0.055895394831042326,0.006113314739203865,n.s.
+CirCor-SSL frozen − Scratch,murmur,single,patient,AUC,-0.027418512117680094,-0.05420661595729328,-0.005061899951297034,Scratch
+CirCor-SSL frozen − Scratch,murmur,single,recording,AUC,-0.008643071692005067,-0.028590773288119528,0.009930030680947218,n.s.
+CirCor-SSL frozen − Scratch,murmur,single,recording,ECE,0.022129895283292317,0.003959935303468571,0.0331250286474897,Scratch
+CirCor-SSL frozen − Scratch,murmur,single,recording,Brier,0.008933139318732033,0.003244639155223435,0.014947487900513232,Scratch
+CirCor-SSL frozen − Scratch,murmur,single,recording,Log-loss,0.021389849752725176,0.0037388478677913826,0.038539487665322114,Scratch
+CirCor-SSL frozen − Scratch,murmur,temp,patient,F1 (macro),0.0010564541470711175,-0.025241929831963855,0.03207462956241437,n.s.
+CirCor-SSL frozen − Scratch,murmur,temp,patient,Accuracy,0.006864988558352381,-0.013545553661645263,0.03132432687638266,n.s.
+CirCor-SSL frozen − Scratch,murmur,temp,patient,Weighted accuracy,-0.026415094339622636,-0.057128832285991075,0.004942710682290484,n.s.
+CirCor-SSL frozen − Scratch,murmur,temp,patient,AUC,-0.02267593746232066,-0.048616907144761676,-0.00036467224876477795,Scratch
+CirCor-SSL frozen − Scratch,murmur,temp,recording,AUC,-0.006288462687458751,-0.02651520510833038,0.012721579062687024,n.s.
+CirCor-SSL frozen − Scratch,murmur,temp,recording,ECE,0.018601830539482295,0.005368123828621225,0.0266098155509829,Scratch
+CirCor-SSL frozen − Scratch,murmur,temp,recording,Brier,0.008987924884150345,0.002796949802452286,0.015337971055175833,Scratch
+CirCor-SSL frozen − Scratch,murmur,temp,recording,Log-loss,0.017325209231518757,-0.003199100219443711,0.038259052935545004,n.s.
+CirCor-SSL frozen − Scratch,murmur,mc,patient,F1 (macro),0.010576364439507935,-0.01683916704553774,0.04184800403563702,n.s.
+CirCor-SSL frozen − Scratch,murmur,mc,patient,Accuracy,0.014874141876430214,-0.005765743834259522,0.038599888806523354,n.s.
+CirCor-SSL frozen − Scratch,murmur,mc,patient,Weighted accuracy,-0.022012578616352196,-0.053060189972540514,0.009675624943642984,n.s.
+CirCor-SSL frozen − Scratch,murmur,mc,patient,AUC,-0.02591535709979509,-0.05298281154686603,-0.0034485046251409982,Scratch
+CirCor-SSL frozen − Scratch,murmur,mc,recording,AUC,-0.00816508877989408,-0.02755280776216502,0.010152993167699189,n.s.
+CirCor-SSL frozen − Scratch,murmur,mc,recording,ECE,0.03899216959122297,0.01681673748336299,0.047575320012336164,Scratch
+CirCor-SSL frozen − Scratch,murmur,mc,recording,Brier,0.01034122048019391,0.005048095103898347,0.015795311642600004,Scratch
+CirCor-SSL frozen − Scratch,murmur,mc,recording,Log-loss,0.029091384058733905,0.012398367708587961,0.04567506797213204,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens,patient,F1 (macro),-0.002385810480459827,-0.029635543260661014,0.025079870208338375,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens,patient,Accuracy,0.0,-0.02072132809223182,0.02073792515108507,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens,patient,Weighted accuracy,-0.010062893081761004,-0.03756211667307645,0.017844739411409162,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens,patient,AUC,-0.022611631365298757,-0.04521114191133489,-0.0038539740687225203,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens,recording,AUC,-0.015269652973542436,-0.03231838534080719,-0.0005840749739481128,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens,recording,ECE,0.021056937236100456,0.007062384946415134,0.02980618961217053,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens,recording,Brier,0.011002023658560886,0.006703634830051263,0.01565675872153142,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens,recording,Log-loss,0.03088379860803947,0.018029485070286497,0.044863779633738304,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens_temp,patient,F1 (macro),-0.007783475583463928,-0.034910038193785124,0.020143620735080282,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens_temp,patient,Accuracy,-0.004576659038901587,-0.02491718573046433,0.016802549687288074,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens_temp,patient,Weighted accuracy,-0.012578616352201255,-0.04066126114339338,0.015325420170364408,n.s.
+CirCor-SSL frozen − Scratch,murmur,ens_temp,patient,AUC,-0.022844740967003063,-0.044483284525974345,-0.004778111320015914,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens_temp,recording,AUC,-0.016552874143840324,-0.03301000267001913,-0.0014862325058784406,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens_temp,recording,ECE,0.016973493773598407,0.004295339110392205,0.024829762623730177,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens_temp,recording,Brier,0.011401409129102244,0.0067469334220823214,0.016414283141007385,Scratch
+CirCor-SSL frozen − Scratch,murmur,ens_temp,recording,Log-loss,0.03184388399333238,0.017349360623785694,0.04744881381355709,Scratch
+CirCor-SSL frozen − Scratch,outcome,single,patient,F1 (macro),0.013101461002538284,-0.019383219261808967,0.04703471094903754,n.s.
+CirCor-SSL frozen − Scratch,outcome,single,patient,Accuracy,0.0031847133757961776,-0.025559786644141227,0.03285570480965476,n.s.
+CirCor-SSL frozen − Scratch,outcome,single,patient,Weighted accuracy,-0.03506869125090384,-0.06370647680170533,-0.004845356431443386,Scratch
+CirCor-SSL frozen − Scratch,outcome,single,patient,AUC,0.018784744783770235,-0.005215392072404062,0.044341326392963565,n.s.
+CirCor-SSL frozen − Scratch,outcome,single,patient,Cost (c_outcome),281.82277610718484,-295.3871363688262,830.7648975982282,n.s.
+CirCor-SSL frozen − Scratch,outcome,single,recording,AUC,0.03143650503963835,0.008686197595610455,0.05537093898796953,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,single,recording,ECE,-0.027138329289613777,-0.045263482611197295,-0.00029684558136316617,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,single,recording,Brier,-0.008017285622170078,-0.013940664831136833,-0.002281517837261905,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,single,recording,Log-loss,-0.03413069952662817,-0.05783381493600869,-0.012332634932159976,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,temp,patient,F1 (macro),-0.00503902589482752,-0.0358910714395505,0.028152382587685435,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,patient,Accuracy,-0.009554140127388533,-0.038190640628721045,0.021148439728191745,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,patient,Weighted accuracy,-0.03217642805495291,-0.062001472449625415,0.001369241285030718,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,patient,AUC,0.004634141939210079,-0.018718211012046994,0.026641452573088982,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,patient,Cost (c_outcome),447.4556756835227,-173.64647029837593,1020.1068134450502,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,recording,AUC,0.012995719189047295,-0.006875605540025184,0.03200060513898333,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,recording,ECE,0.004115935887844084,-0.02352241656339319,0.032060560631632665,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,recording,Brier,-0.002527378667847774,-0.007443886709584221,0.0025840957446066166,n.s.
+CirCor-SSL frozen − Scratch,outcome,temp,recording,Log-loss,-0.012989258392673175,-0.03307078105310921,0.0038878415331616597,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,patient,F1 (macro),0.008194509710456876,-0.023550291963408947,0.04228059711602753,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,patient,Accuracy,-0.0010615711252653925,-0.029818956336528202,0.029991477471026772,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,patient,Weighted accuracy,-0.0365148228488793,-0.0660932159185051,-0.004372002349775935,Scratch
+CirCor-SSL frozen − Scratch,outcome,mc,patient,AUC,0.017778499747310716,-0.006279035850439765,0.04364711801001063,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,patient,Cost (c_outcome),330.2018800223068,-251.26789615119588,877.592389440817,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,recording,AUC,0.03112713080006657,0.008082725539038738,0.05513988127449517,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,mc,recording,ECE,-0.024891766399308193,-0.042797574823847315,0.000272805436783091,n.s.
+CirCor-SSL frozen − Scratch,outcome,mc,recording,Brier,-0.006452126293746113,-0.011777031042914624,-0.0013784456961684897,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,mc,recording,Log-loss,-0.02195675380827966,-0.04118981654839352,-0.005087821355388377,CirCor-SSL frozen
+CirCor-SSL frozen − Scratch,outcome,ens,patient,F1 (macro),-0.028306060402684352,-0.0600787860239008,0.004562772400025721,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,patient,Accuracy,-0.022292993630573243,-0.052966101694915224,0.007495301229013393,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,patient,Weighted accuracy,0.0010845986984816536,-0.0328200090317096,0.03539029203676736,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,patient,AUC,-0.008586925131759515,-0.028557836289695673,0.01251914563551986,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,patient,Cost (c_outcome),190.78698130101657,-424.68831714583087,812.9455278270856,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,recording,AUC,0.000953336919353065,-0.01744173354828655,0.020229068280846887,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,recording,ECE,-0.0051294533181211605,-0.02276396999790941,0.0153542925174149,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,recording,Brier,0.0022425707345569423,-0.0016211793393498396,0.0059036721923659,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens,recording,Log-loss,-0.0011960069563160536,-0.020880456191273416,0.013947241875007657,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,patient,F1 (macro),-0.033259916800870704,-0.06432060694343365,5.355155799909063e-05,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,patient,Accuracy,-0.02547770700636942,-0.05467293857975912,0.00528095561005943,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,patient,Weighted accuracy,0.004338394793926281,-0.029445809394105852,0.03865557611813763,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,patient,AUC,-0.010599415204678442,-0.029769058605590194,0.009551366323345663,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,patient,Cost (c_outcome),195.2808251741826,-420.04196833410265,825.2584900744484,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,recording,AUC,-0.0005543121886246727,-0.017771866889892848,0.017428937132048822,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,recording,ECE,-0.0024366047734530605,-0.02492338339473642,0.02283185191725737,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,recording,Brier,0.0030459457478948238,-0.0005933045589983025,0.006739675966923837,n.s.
+CirCor-SSL frozen − Scratch,outcome,ens_temp,recording,Log-loss,-0.00033024856679975123,-0.019377359525505553,0.014037154331795709,n.s.
+Domain-SSL frozen − Scratch,murmur,single,patient,F1 (macro),-0.06870136426927564,-0.09730248616017428,-0.038777496760520926,Scratch
+Domain-SSL frozen − Scratch,murmur,single,patient,Accuracy,-0.053775743707093815,-0.07762808695928546,-0.028633618983805318,Scratch
+Domain-SSL frozen − Scratch,murmur,single,patient,Weighted accuracy,-0.06981132075471697,-0.0984665228842997,-0.04149275746228222,Scratch
+Domain-SSL frozen − Scratch,murmur,single,patient,AUC,-0.04744986133997808,-0.074358534584853,-0.02384337934225099,Scratch
+Domain-SSL frozen − Scratch,murmur,single,recording,AUC,-0.03165957839734501,-0.050704347824844745,-0.01220419934072928,Scratch
+Domain-SSL frozen − Scratch,murmur,single,recording,ECE,0.011589193327209459,-0.0003390406855678671,0.024068121773919756,n.s.
+Domain-SSL frozen − Scratch,murmur,single,recording,Brier,0.012825754205251741,0.006555834354253265,0.019207887394566504,Scratch
+Domain-SSL frozen − Scratch,murmur,single,recording,Log-loss,0.03535492944320362,0.016019333879212172,0.05362124488837313,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,patient,F1 (macro),-0.09983840178563474,-0.12970750657731334,-0.07049077124836228,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,patient,Accuracy,-0.08581235697940504,-0.1125378981287716,-0.059698073207844,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,patient,Weighted accuracy,-0.08490566037735847,-0.11512628558158726,-0.05594994182763874,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,patient,AUC,-0.04080221856034716,-0.06843164673285518,-0.01624294493073215,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,recording,AUC,-0.02711466701429055,-0.047581144437859386,-0.0069060072363221515,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,recording,ECE,0.012668029157123336,0.0013039706555371018,0.02155727775653433,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,recording,Brier,0.012372167683092614,0.005735908553093281,0.01911940389170171,Scratch
+Domain-SSL frozen − Scratch,murmur,temp,recording,Log-loss,0.029911893927139888,0.00818266106993577,0.050739052949448235,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,patient,F1 (macro),-0.03851363718867307,-0.06661307907190832,-0.007902427698017349,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,patient,Accuracy,-0.024027459954233388,-0.04613743337302324,0.0011338190213657144,n.s.
+Domain-SSL frozen − Scratch,murmur,mc,patient,Weighted accuracy,-0.058490566037735836,-0.08693251891992901,-0.02916122994000285,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,patient,AUC,-0.04826172581487864,-0.07493300295741973,-0.02414366330697422,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,recording,AUC,-0.03245666921952983,-0.05097820081916141,-0.013021889384922672,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,recording,ECE,0.02882795530802839,0.010725315362106238,0.03937316531285457,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,recording,Brier,0.014009671450832165,0.008057413378274007,0.01977009553514296,Scratch
+Domain-SSL frozen − Scratch,murmur,mc,recording,Log-loss,0.04084807339065105,0.0230332642150015,0.05792633445264863,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,patient,F1 (macro),-0.04476014334279932,-0.07454919436879577,-0.01433599604672139,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,patient,Accuracy,-0.03318077803203667,-0.056847124079721346,-0.00996906374781535,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,patient,Weighted accuracy,-0.04591194968553458,-0.07813204923771001,-0.01569391481209723,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,patient,AUC,-0.046396849001245855,-0.07062537496470918,-0.02533068367628064,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,recording,AUC,-0.037595664477722335,-0.05453273312175953,-0.021109572042949956,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,recording,ECE,0.007731232539762246,-0.00149743083577215,0.020954715239183908,n.s.
+Domain-SSL frozen − Scratch,murmur,ens,recording,Brier,0.015080703900933329,0.009796540225181954,0.020406109526772357,Scratch
+Domain-SSL frozen − Scratch,murmur,ens,recording,Log-loss,0.045043730456267694,0.030320902045375346,0.0599114226731527,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,patient,F1 (macro),-0.1054681824864867,-0.1347285662609104,-0.0755819863101236,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,patient,Accuracy,-0.09382151029748287,-0.11858753841099277,-0.06802388389187662,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,patient,Weighted accuracy,-0.07169811320754715,-0.10248314989698466,-0.0426103063431986,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,patient,AUC,-0.04312527631526086,-0.06737903281863303,-0.02120653730717887,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,recording,AUC,-0.03622553732340439,-0.053992930896019815,-0.018737945643712263,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,recording,ECE,0.01093958742368089,0.0012775339422543446,0.020883568895650646,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,recording,Brier,0.01514050287940076,0.009703147123890537,0.02065067785426568,Scratch
+Domain-SSL frozen − Scratch,murmur,ens_temp,recording,Log-loss,0.04494608046540477,0.028755923904665272,0.061275522663130015,Scratch
+Domain-SSL frozen − Scratch,outcome,single,patient,F1 (macro),0.02823927787320657,-0.003422412816748471,0.061967295797316635,n.s.
+Domain-SSL frozen − Scratch,outcome,single,patient,Accuracy,0.013800424628450103,-0.015940488841657774,0.045990535789943804,n.s.
+Domain-SSL frozen − Scratch,outcome,single,patient,Weighted accuracy,-0.04736080983369484,-0.07860524751096652,-0.013221714748773152,Scratch
+Domain-SSL frozen − Scratch,outcome,single,patient,AUC,0.025196736697711497,-0.00865318942406597,0.061242564372903985,n.s.
+Domain-SSL frozen − Scratch,outcome,single,patient,Cost (c_outcome),370.3287965349391,-245.52315882694765,962.6808904226074,n.s.
+Domain-SSL frozen − Scratch,outcome,single,recording,AUC,0.03538672980622681,0.0034550591640259893,0.0686654782680308,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,single,recording,ECE,-0.019248953240779326,-0.045484432708306585,0.0071065379197550625,n.s.
+Domain-SSL frozen − Scratch,outcome,single,recording,Brier,-0.009551895323117843,-0.01730792520913304,-0.0022344318909549,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,single,recording,Log-loss,-0.037219394530456085,-0.06327862494481824,-0.013904303365998873,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,temp,patient,F1 (macro),0.0142460114335613,-0.015982869741751945,0.04616514524906174,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,patient,Accuracy,0.006369426751592355,-0.02323187053363135,0.03731542607475443,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,patient,Weighted accuracy,-0.033984092552422185,-0.06592084417486008,-0.0003614999023918987,Scratch
+Domain-SSL frozen − Scratch,outcome,temp,patient,AUC,0.011646271027362598,-0.01623800329830377,0.03774732090954111,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,patient,Cost (c_outcome),380.2644667627992,-231.77816025899506,976.6660035322535,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,recording,AUC,0.017009179569933752,-0.007414029079975537,0.0391852633742109,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,recording,ECE,0.0039011180463453116,-0.01975432678322451,0.0247128180864858,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,recording,Brier,-0.0038028457373326663,-0.0094315533908691,0.00185974647863411,n.s.
+Domain-SSL frozen − Scratch,outcome,temp,recording,Log-loss,-0.014123581740774105,-0.030121945122493728,0.0005313316756489243,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,patient,F1 (macro),0.010786573691723644,-0.022672581658378398,0.04579939136064928,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,patient,Accuracy,0.00424628450106157,-0.026344910387525143,0.03426408592077091,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,patient,Weighted accuracy,-0.018799710773680478,-0.052595591629481485,0.015226898679537323,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,patient,AUC,0.0255171106779295,-0.008464461446438153,0.06137477504941497,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,patient,Cost (c_outcome),97.19245471086651,-509.5682129726435,689.080005414315,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,recording,AUC,0.036081120887283546,0.003868602326818543,0.06890467436445864,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,mc,recording,ECE,-0.023839745171737318,-0.047647894541903636,0.004236026245952888,n.s.
+Domain-SSL frozen − Scratch,outcome,mc,recording,Brier,-0.008069030820628709,-0.01494574104836175,-0.0013441698848990836,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,mc,recording,Log-loss,-0.02543104612541336,-0.045480094105791166,-0.005883971100108624,Domain-SSL frozen
+Domain-SSL frozen − Scratch,outcome,ens,patient,F1 (macro),-0.005693693658129773,-0.03550442147431013,0.02763661399509805,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,patient,Accuracy,-0.006369426751592355,-0.03503934859995362,0.025736898457132003,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,patient,Weighted accuracy,-0.010845986984815537,-0.0443248191851091,0.023588118555158858,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,patient,AUC,0.005432820734964983,-0.014681080148288362,0.02810931360705467,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,patient,Cost (c_outcome),181.56375349491827,-470.6591393532475,791.2214764997622,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,recording,AUC,0.006075421677488868,-0.01431041443561192,0.027100496475785496,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,recording,ECE,-0.012703493043498042,-0.029318755984980252,0.009931384211598813,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,recording,Brier,0.00013459434412230187,-0.0039997814152212,0.00425710592140205,n.s.
+Domain-SSL frozen − Scratch,outcome,ens,recording,Log-loss,-0.005539006188127749,-0.02363617018232227,0.00874259562549647,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,patient,F1 (macro),-0.002498901772135298,-0.031619478950556515,0.030810887173854776,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,patient,Accuracy,-0.00424628450106157,-0.03164724221907036,0.02766401658389902,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,patient,Weighted accuracy,-0.014461315979754197,-0.048173512389678104,0.02121389267169313,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,patient,AUC,0.0008212403436574922,-0.018464599920724266,0.022186213142919266,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,patient,Cost (c_outcome),215.75823471347394,-449.2165837995787,832.4339420871049,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,recording,AUC,0.0018390357449314942,-0.016459400840212746,0.021288387819585825,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,recording,ECE,-0.0035181095580071944,-0.024962263594915834,0.020183329057213782,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,recording,Brier,0.0012569638622631218,-0.0028269607387370324,0.005473637984783582,n.s.
+Domain-SSL frozen − Scratch,outcome,ens_temp,recording,Log-loss,-0.004187554082668354,-0.021095218723954028,0.009258119176178114,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,patient,F1 (macro),-0.022852122733237334,-0.045300590880096324,-0.001122438925883519,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,patient,Accuracy,-0.0194508009153318,-0.03567318757192173,-0.0034840180991096456,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,patient,Weighted accuracy,-0.0031446540880503138,-0.027781746031746043,0.02228788401642245,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,patient,AUC,0.005771472207708572,-0.00887432082690455,0.021974848391912393,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,recording,AUC,-0.0017157142313981577,-0.015515621435050819,0.013535186142035423,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,recording,ECE,0.00859250805805966,-0.003945300491382568,0.0189443393841877,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,recording,Brier,0.0032856809175181856,-0.0021875812667279944,0.008450200381399446,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,single,recording,Log-loss,0.02036692937912471,-0.0034858037936599806,0.04196399764936135,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,patient,F1 (macro),-0.021550986060543953,-0.04403563925916567,0.0007935603168968949,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,patient,Accuracy,-0.01830663615560635,-0.03428767795778102,-0.0023281534993963016,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,patient,Weighted accuracy,-0.002515723270440251,-0.027339419131578065,0.02401754517580082,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,patient,AUC,0.010972227804348589,-0.0021604112341323365,0.027039010053832968,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,recording,AUC,0.001395927368323946,-0.012285332270084747,0.01723719120784479,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,recording,ECE,0.0005722652308811083,-0.011356078231570647,0.013138021258048777,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,recording,Brier,0.001722677383947116,-0.0032429486964512086,0.0064539655782417825,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,temp,recording,Log-loss,0.013929730499940896,-0.005922758981442115,0.03132660268793117,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,patient,F1 (macro),-0.020614144431541193,-0.04238352882074692,0.0004096910636291639,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,patient,Accuracy,-0.017162471395881007,-0.03349376001787308,-0.0022961454196904958,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,patient,Weighted accuracy,-0.004402515723270439,-0.028598026702662285,0.020190331092195705,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,patient,AUC,0.006245729673244438,-0.00793468421185183,0.022476414542714433,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,recording,AUC,-0.0017021351713947253,-0.015358552750800666,0.013479499486917144,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,recording,ECE,0.009259719320622653,-0.0031916568911529086,0.020417339247670235,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,recording,Brier,0.0032564504901221453,-0.002088691371855672,0.00829867023914334,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,mc,recording,Log-loss,0.019985681604305916,-0.0028844175660072747,0.04082304421113574,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,patient,F1 (macro),-0.035250781190319325,-0.060085621916953186,-0.010458358219858176,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,patient,Accuracy,-0.03089244851258577,-0.04983437146092865,-0.011285098286603231,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,patient,Weighted accuracy,-0.00691823899371069,-0.03131797666051224,0.017015513185745915,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,patient,AUC,-0.000723443591495343,-0.011998594555255024,0.007911945484951879,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,recording,AUC,0.0055640198362909565,-0.0044261438176693675,0.01685855922049735,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,recording,ECE,-0.00031137154465404535,-0.010479742649890654,0.009825749162232377,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,recording,Brier,-0.0006415938077512368,-0.003759241154470758,0.002371755153421575,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens,recording,Log-loss,-0.010365906146036497,-0.02507615944976011,0.0036327737933865736,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,patient,F1 (macro),-0.03396049998588824,-0.05697058908577733,-0.010947548176159689,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,patient,Accuracy,-0.028604118993134975,-0.04566471270493088,-0.011399612880973764,CirCor-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,patient,Weighted accuracy,-0.010691823899371067,-0.03450745578100514,0.013051083138173363,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,patient,AUC,0.0009244001446887529,-0.007441982328448571,0.00945540452920915,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,recording,AUC,0.005085357971179927,-0.005556025926824323,0.016794551393170327,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,recording,ECE,-0.006348660797863167,-0.017190627436865027,0.005485571167736032,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,recording,Brier,-0.0012651221774981763,-0.004342302459233066,0.0015562542095552171,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,murmur,ens_temp,recording,Log-loss,-0.0065651774973768395,-0.01861539738010279,0.004870692165388498,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,patient,F1 (macro),0.02186819202777457,-0.00817368395687294,0.04983356372064678,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,patient,Accuracy,0.01273885350318471,-0.013904115471378362,0.038675797646246145,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,patient,Weighted accuracy,-0.021691973969631184,-0.04822556947285393,0.00583050442155104,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,patient,AUC,0.003876073929680257,-0.01633976949751779,0.023311640093088812,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,patient,Cost (c_outcome),87.42734787192057,-405.91203983151036,598.3342192699259,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,recording,AUC,0.004675032978573523,-0.012389896236839493,0.021165579229961744,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,recording,ECE,-0.0068479553836882645,-0.021610682705608352,0.01226279680019421,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,recording,Brier,-0.003814275567911918,-0.009170494230894858,0.0020410739311430576,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,single,recording,Log-loss,-0.010831061771853445,-0.026176955102515775,0.0056487371912202124,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,patient,F1 (macro),0.018494459332117685,-0.014116292892756463,0.05320735724039623,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,patient,Accuracy,0.009554140127388533,-0.020205714519032105,0.039412085668301275,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,patient,Weighted accuracy,-0.01554591467823574,-0.04426248548199767,0.014020194377176984,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,patient,AUC,0.00507634827810266,-0.01572403843069765,0.02402939809154604,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,patient,Cost (c_outcome),-47.36662102533228,-596.1969942648564,511.32095076785066,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,recording,AUC,0.006774615463428835,-0.01049753526621865,0.023042855399279433,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,recording,ECE,-0.010221535793061787,-0.02742507936236841,0.010351474326295665,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,recording,Brier,-0.004077618105098879,-0.007858953440120334,0.0001739626514777263,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,temp,recording,Log-loss,-0.008518126368004086,-0.018328520989823325,0.0019501046662945332,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,patient,F1 (macro),0.014091657268418878,-0.012533264545493732,0.04163493051486715,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,patient,Accuracy,0.010615711252653925,-0.013861131869362383,0.0340797155255216,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,patient,Weighted accuracy,0.002169197396963085,-0.023466995932168354,0.025523943609732536,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,patient,AUC,0.004746949678723578,-0.015127342791469647,0.02346946867534712,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,patient,Cost (c_outcome),-163.38869884262385,-616.3866185150125,303.2998908037978,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,recording,AUC,0.004801504207169516,-0.012602401559475698,0.02122613608730844,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,recording,ECE,-0.0066926885072114,-0.021467196839410126,0.01350106696633249,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,recording,Brier,-0.0033774566677649,-0.008664013784690179,0.002389285798812079,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,mc,recording,Log-loss,-0.01207728952106446,-0.025496897831895106,0.0020496145484264487,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,patient,F1 (macro),0.008296170201984587,-0.017884138557409703,0.03427980278554698,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,patient,Accuracy,0.010615711252653925,-0.014909875542415763,0.0356796266637212,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,patient,Weighted accuracy,0.02819956616052066,-0.0007625381741976985,0.05487482112687161,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,patient,AUC,0.019023897191538408,0.00560406540038825,0.03342905643320824,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,patient,Cost (c_outcome),-479.5629981284728,-994.666756138905,76.35096965571829,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,recording,AUC,0.015423486507601059,0.0037699924954396253,0.027836148698738725,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,recording,ECE,-0.015823285739317725,-0.030309581243182452,-0.0009694552949323324,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,recording,Brier,-0.005551595960363587,-0.009227022955011781,-0.002068688475165212,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens,recording,Log-loss,-0.010337847812813106,-0.01976128563882248,0.00014933678957800212,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,patient,F1 (macro),0.012884048290622063,-0.014711604355974519,0.039977045896591866,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,patient,Accuracy,0.01698513800424628,-0.009606930147691645,0.04251023371461494,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,patient,Weighted accuracy,0.04049168474331166,0.011160442073170749,0.06715031486128327,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,patient,AUC,0.01343765793083529,0.0013825285604765428,0.026843123030504762,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,patient,Cost (c_outcome),-634.4687030981368,-1152.3645288565615,-101.08050342611459,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,recording,AUC,0.010710031889960447,-5.880085973586612e-05,0.022046228708023804,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,recording,ECE,-0.008759570440761304,-0.021045522753523425,0.008049909169406051,n.s.
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,recording,Brier,-0.002957081263262523,-0.005318453311481302,-0.000700840269581346,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − CirCor-SSL fine-tuned,outcome,ens_temp,recording,Log-loss,-0.005847407796654935,-0.011795851018315266,0.0005681529705277122,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,patient,F1 (macro),-0.07100244306301473,-0.10164566749779369,-0.04493314893007003,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,patient,Accuracy,-0.06178489702517165,-0.08545205811329303,-0.04095446788706169,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,patient,Weighted accuracy,-0.04402515723270439,-0.0732918774647925,-0.015588149619772491,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,patient,AUC,-0.02003134922229799,-0.0400890656838611,0.0012818856183502286,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,recording,AUC,-0.023016506705339945,-0.0346711177821052,-0.010790995498120412,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,recording,ECE,-0.010540701956082858,-0.019549350652346406,0.004468624794218963,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,recording,Brier,0.0038926148865197074,0.0017111654356616914,0.006201794473155184,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,single,recording,Log-loss,0.013965079690478444,0.006523841254835969,0.02147933547406006,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,patient,F1 (macro),-0.10089485593270586,-0.13336889508870742,-0.0730759932800081,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,patient,Accuracy,-0.09267734553775742,-0.11964785553047415,-0.06840922048305169,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,patient,Weighted accuracy,-0.058490566037735836,-0.08962360911778151,-0.03112294413191912,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,patient,AUC,-0.018126281098026498,-0.03837596642246477,0.002432240794855774,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,recording,AUC,-0.0208262043268318,-0.0311981986772252,-0.010333750999748564,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,recording,ECE,-0.005933801382358959,-0.011805954291853127,0.00390915728832195,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,recording,Brier,0.003384242798942269,0.0010818315620985067,0.005746501142191708,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,temp,recording,Log-loss,0.012586684695621131,0.004409119244378179,0.02079476761927707,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,patient,F1 (macro),-0.049090001628181,-0.07658780864163234,-0.02442738171039053,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,patient,Accuracy,-0.0389016018306636,-0.05970320809744387,-0.01949429754581915,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,patient,Weighted accuracy,-0.03647798742138364,-0.06433962789661318,-0.011406445186056463,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,patient,AUC,-0.022346368715083553,-0.04264504423100827,-0.001416858894588176,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,recording,AUC,-0.02429158043963575,-0.035718166072260846,-0.012571230144316162,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,recording,ECE,-0.010164214283194577,-0.018222628367421317,0.0029162423219938525,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,recording,Brier,0.003668450970638254,0.0015820737938706617,0.005922294214678546,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,mc,recording,Log-loss,0.011756689331917147,0.00525471999944325,0.018478670013129327,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,patient,F1 (macro),-0.04237433286233949,-0.0692766388776926,-0.017247417904773202,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,patient,Accuracy,-0.03318077803203667,-0.05485549494696632,-0.013649563255625599,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,patient,Weighted accuracy,-0.03584905660377358,-0.06307761578660816,-0.0101566871685467,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,patient,AUC,-0.023785217635947098,-0.04388602691944682,-0.0028334501294619116,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,recording,AUC,-0.0223260115041799,-0.034506496407081845,-0.009781510621092695,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,recording,ECE,-0.01332570469633821,-0.020397006008625977,0.0027378662536126754,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,recording,Brier,0.004078680242372443,0.0017582145031091287,0.0065063954891491855,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens,recording,Log-loss,0.014159931848228224,0.006636195997857664,0.021974445471511967,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,patient,F1 (macro),-0.09768470690302278,-0.12657834222854683,-0.07093261692906684,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,patient,Accuracy,-0.08924485125858128,-0.11363892301392292,-0.06575963718820865,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,patient,Weighted accuracy,-0.0591194968553459,-0.08704015163112223,-0.033071431743768025,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,patient,AUC,-0.0202805353482578,-0.038669823369237785,-0.0012213393362230326,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,recording,AUC,-0.019672663179564065,-0.029277066192967473,-0.009843112678170762,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,recording,ECE,-0.006033906349917517,-0.009837242162287428,0.005488388738269159,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,recording,Brier,0.0037390937502985166,0.001561144561936829,0.006026418887834049,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,murmur,ens_temp,recording,Log-loss,0.013102196472072392,0.005138542059678557,0.020614864816549658,CirCor-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,patient,F1 (macro),0.015137816870668286,-0.008538166492090118,0.04103550968054706,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,patient,Accuracy,0.010615711252653925,-0.013758811298747389,0.0349672623242538,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,patient,Weighted accuracy,-0.012292118582791,-0.04041901964394412,0.01680259436459576,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,patient,AUC,0.006411991913941262,-0.013979377351286964,0.026269587142984784,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,patient,Cost (c_outcome),88.50602042775427,-413.88853781764675,583.3714340509059,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,recording,AUC,0.0039502247665884616,-0.014763905842727016,0.021875989030770884,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,recording,ECE,0.00788937604883445,-0.014818340050973895,0.020027409397783538,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,recording,Brier,-0.0015346097009477644,-0.004880009709423337,0.0018625031030125628,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,single,recording,Log-loss,-0.0030886950038279126,-0.01090153285610842,0.004493407469007489,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,patient,F1 (macro),0.01928503732838882,-0.00468097955746308,0.044905141042350306,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,patient,Accuracy,0.015923566878980888,-0.007316066078465702,0.040211640211640254,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,patient,Weighted accuracy,-0.0018076644974692746,-0.029174053218899466,0.02549333249867454,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,patient,AUC,0.007012129088152519,-0.011995196875607666,0.025756212482636414,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,patient,Cost (c_outcome),-67.19120892072351,-551.1628917699845,415.14803342636935,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,recording,AUC,0.004013460380886458,-0.013184984226909526,0.02072462455290448,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,recording,ECE,-0.00021481784149877253,-0.017953415342689433,0.015764996198024597,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,recording,Brier,-0.0012754670694848924,-0.004799118034028789,0.002238201279803262,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,temp,recording,Log-loss,-0.0011343233481009296,-0.010161228816654039,0.008303446820805431,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,patient,F1 (macro),0.002592063981266768,-0.02563882371652921,0.03082768262175589,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,patient,Accuracy,0.005307855626326963,-0.020261483545304132,0.03205299785867237,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,patient,Weighted accuracy,0.017715112075198824,-0.011223352564116164,0.04567953089598942,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,patient,AUC,0.007738610930618783,-0.012813348702767319,0.02747218588839631,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,patient,Cost (c_outcome),-233.00942531144028,-742.8419568716664,264.8418678032468,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,recording,AUC,0.004953990087216975,-0.014542839939049467,0.022695744198346763,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,recording,ECE,0.0010520212275708755,-0.016558026472103533,0.014041347280250836,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,recording,Brier,-0.0016169045268825954,-0.004884997988124547,0.001639629448983989,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,mc,recording,Log-loss,-0.003474292317133698,-0.010804016607986938,0.003710088871337979,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,patient,F1 (macro),0.02261236674455458,-0.002157026829680927,0.0491383626392376,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,patient,Accuracy,0.015923566878980888,-0.006488089836660642,0.04039013805987973,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,patient,Weighted accuracy,-0.01193058568329719,-0.03563053352729936,0.012930180214323189,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,patient,AUC,0.014019745866724498,-0.0012353386627729918,0.028573576860814156,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,patient,Cost (c_outcome),-9.223227806098294,-494.13012886120015,442.03331804811774,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,recording,AUC,0.005122084758135803,-0.009552638518675074,0.019168992376499,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,recording,ECE,-0.007574039725376881,-0.02096446074438943,0.00833999740085636,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,recording,Brier,-0.0021079763904346405,-0.0048781284216094485,0.0005800035307017176,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens,recording,Log-loss,-0.004342999231811695,-0.010492593852427609,0.00227993571770316,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,patient,F1 (macro),0.030761015028735406,0.006624633177914702,0.05721633683854112,Domain-SSL frozen
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,patient,Accuracy,0.02123142250530785,-0.0010548523206751481,0.046877084445037354,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,patient,Weighted accuracy,-0.018799710773680478,-0.04300521108645786,0.00868111149765763,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,patient,AUC,0.011420655548335934,-0.002940382859616075,0.025433972751371495,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,patient,Cost (c_outcome),20.47740953929133,-483.18097227627345,480.4834359102176,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,recording,AUC,0.002393347933556167,-0.011220269379451761,0.01588640733400961,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,recording,ECE,-0.001081504784554134,-0.015900132029258503,0.013487427865374652,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,recording,Brier,-0.001788981885631702,-0.0046088187467118475,0.0009677654735353975,n.s.
+Domain-SSL frozen − CirCor-SSL frozen,outcome,ens_temp,recording,Log-loss,-0.003857305515868603,-0.01025804766144223,0.0025566397633171195,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,patient,F1 (macro),0.038206808547055604,0.01114040219315723,0.06698171860975187,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,patient,Accuracy,0.029748283752860427,0.010450555927555028,0.050577625933577015,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,patient,Weighted accuracy,0.021383647798742134,-0.008502256777027786,0.05012572056917787,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,patient,AUC,0.021124552871669255,-0.0011544359089975696,0.04580985759281755,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,recording,AUC,0.0009118338792115654,-0.01680128660639229,0.01835968217625807,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,recording,ECE,-0.010063938429148635,-0.030647405542511257,0.01146886984992779,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,recording,Brier,-0.009709244091352931,-0.01633642039989104,-0.0035735711322059335,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,single,recording,Log-loss,0.004889472613535006,-0.023539713808117622,0.03720209804327834,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,patient,F1 (macro),0.03908417109691864,0.012116667297519989,0.06723213185983654,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,patient,Accuracy,0.03089244851258577,0.012400655385946011,0.05086944140770765,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,patient,Weighted accuracy,0.019496855345911945,-0.010042360942849724,0.046714598000248075,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,patient,AUC,0.014814517101402691,-0.008692778535778125,0.03950209102142397,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,recording,AUC,0.001258778862291754,-0.01643081901170928,0.019146450308123748,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,recording,ECE,-0.002951316734779899,-0.02325566137740367,0.017653984534696677,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,recording,Brier,-0.008750620460641845,-0.016102139785069945,-0.0016829582485588521,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,temp,recording,Log-loss,-0.008895807623071239,-0.03392647812439825,0.013953227967692454,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,patient,F1 (macro),0.029931522901286756,0.003358950312465953,0.05635084723159232,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,patient,Accuracy,0.022883295194508046,0.004479406477656144,0.04176426940785189,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,patient,Weighted accuracy,0.017610062893081757,-0.010815112561878708,0.04351906905631529,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,patient,AUC,0.019042642980587776,-0.0034748571850843953,0.043346349879552624,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,recording,AUC,-0.0006674107991549993,-0.01879287022703751,0.01667431378617542,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,recording,ECE,-0.028182648679119772,-0.04758628952260927,-0.0026891953034777,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,recording,Brier,-0.010897165399560427,-0.017086483795977644,-0.00506758260157274,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,mc,recording,Log-loss,-0.005776167813392519,-0.034350867251751065,0.027654259338143135,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,patient,F1 (macro),0.0378217649615783,0.009196901821305298,0.06704818953886718,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,patient,Accuracy,0.028604118993134975,0.008026834862385299,0.05011791230434334,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,patient,Weighted accuracy,0.028301886792452824,-0.004590485999847392,0.06109283391791901,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,patient,AUC,0.03036051605642842,0.008212472575056837,0.05742487939181019,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,recording,AUC,0.007968871362848629,-0.00921122030637828,0.02443426376196736,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,recording,ECE,-0.016968335862783037,-0.03519891170429617,0.004442508221440606,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,recording,Brier,-0.011764613860753295,-0.01723574880750003,-0.0063617000621139595,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens,recording,Log-loss,-0.010781113866903558,-0.035055420517386235,0.01488596777046503,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,patient,F1 (macro),0.04074103688173192,0.011397298623003935,0.07004759741948068,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,patient,Accuracy,0.03089244851258577,0.010226404046123775,0.05209785639023255,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,patient,Weighted accuracy,0.02955974842767295,-0.0024873175317771637,0.06117491252899324,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,patient,AUC,0.024130862907439488,0.001980920536776226,0.04892178595934048,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,recording,AUC,0.009439483561189954,-0.007291691074443862,0.02672470610205747,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,recording,ECE,-0.004192235479876197,-0.01924883482962697,0.009877556985267625,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,recording,Brier,-0.01055052185972613,-0.01637431580087634,-0.004814776815083385,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,murmur,ens_temp,recording,Log-loss,-0.020840456646750327,-0.041107208856749164,-0.0020471563651254247,CirCor-SSL fine-tuned
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,patient,F1 (macro),-0.031845084665073964,-0.06281552290976909,-0.002198259431594111,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,patient,Accuracy,-0.023354564755838636,-0.05280110401546515,0.004291960741830025,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,patient,Weighted accuracy,0.006507592190889366,-0.026989096185215073,0.037827635697391115,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,patient,AUC,-0.018405710779005213,-0.040203317987259846,0.005410994150383786,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,patient,Cost (c_outcome),176.34131807716585,-377.657172230884,726.6684403400503,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,recording,AUC,-0.013241857814321079,-0.03329035105933496,0.007514811329733368,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,recording,ECE,0.05768892869254835,0.023598451938442854,0.07059759901616697,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,recording,Brier,0.010360417165252045,0.0039280335955228,0.01650785120706653,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,single,recording,Log-loss,0.03531235813916811,0.01539178600861398,0.057278832350088196,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,patient,F1 (macro),-0.055535804065215855,-0.0879508857687747,-0.024132718617833504,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,patient,Accuracy,-0.03609341825902335,-0.06638741980232353,-0.005289354525712786,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,patient,Weighted accuracy,0.02819956616052055,-0.006938055541947733,0.06199455327633815,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,patient,AUC,-0.01614955598873724,-0.038004029932924475,0.006557336570365303,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,patient,Cost (c_outcome),169.15405983868368,-452.71357165285906,758.7182843927911,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,recording,AUC,-0.01241579257437786,-0.03245960880383392,0.00790318312789368,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,recording,ECE,0.019454226086538698,-0.008171433239430847,0.036095437793721395,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,recording,Brier,0.0032055542613354804,-0.001583979644923609,0.007690193297217358,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,temp,recording,Log-loss,0.008462374183311638,-0.0027250088874912148,0.019519469240540963,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,patient,F1 (macro),-0.04992582344123497,-0.08337191698580462,-0.020854826580737153,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,patient,Accuracy,-0.03609341825902335,-0.06645414356386901,-0.008508842804560459,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,patient,Weighted accuracy,0.006507592190889366,-0.026435204806765217,0.03797215411539854,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,patient,AUC,-0.017846184391018705,-0.03989956237082626,0.006125564408987948,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,patient,Cost (c_outcome),368.48599283186377,-197.26006869966676,936.2132867624024,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,recording,AUC,-0.012953295295910716,-0.03270765397090724,0.008118804084972875,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,recording,ECE,0.049475679494377874,0.01639570174688019,0.06325031378851914,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,recording,Brier,0.009049759018514375,0.002919102380443194,0.015086676592087227,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,mc,recording,Log-loss,0.03002132722230877,0.011107783669329904,0.05036386753826907,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,patient,F1 (macro),0.02112590314969154,-0.008028560044232122,0.04887125139402436,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,patient,Accuracy,0.009554140127388533,-0.018085587882083646,0.037127156036015234,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,patient,Weighted accuracy,-0.05025307302964577,-0.07937658089804323,-0.01763404630985147,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,patient,AUC,-0.013311313262580171,-0.032176127710873775,0.00685264012500517,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,patient,Cost (c_outcome),582.2164455199636,-37.11129028458076,1162.093973925866,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,recording,AUC,-0.01253586019646269,-0.030851515356257457,0.006290716972622117,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,recording,ECE,0.03425188164530668,0.006183402939198451,0.052579211434307264,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,recording,Brier,0.006684367096526589,0.001525116086379618,0.012060324767548999,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens,recording,Log-loss,0.019789587800927544,0.004690690428382061,0.03697832596642094,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,patient,F1 (macro),0.0046095601309865675,-0.02193667066061787,0.03218581912817753,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,patient,Accuracy,-0.005307855626326963,-0.030806229151705104,0.022250516079965227,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,patient,Weighted accuracy,-0.0509761388286335,-0.07930258862808683,-0.01869062030894388,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,patient,AUC,-0.009078766876037814,-0.0276819550102857,0.01057200553788465,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,patient,Cost (c_outcome),621.23253906432,23.7108975955925,1166.4701468788273,CirCor-SSL frozen
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,recording,AUC,-0.010102089496804578,-0.0279485148466116,0.008496976376153265,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,recording,ECE,0.00927526012856568,-0.013742040615930918,0.025245297918785856,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,recording,Brier,0.0008414864009420597,-0.002812763019401896,0.004471578149364686,n.s.
+CirCor-SSL fine-tuned − CirCor-SSL frozen,outcome,ens_temp,recording,Log-loss,0.0018103104873040676,-0.006341970546642636,0.01011347402266986,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,patient,F1 (macro),0.086357128876833,0.05743618915724999,0.11496626632288875,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,patient,Accuracy,0.07208237986270027,0.04880184105030419,0.09512761020881666,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,patient,Weighted accuracy,0.06226415094339621,0.03322895651056377,0.09144247333577497,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,patient,AUC,0.04692737430167582,0.021909689638999093,0.07291389230565919,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,recording,AUC,0.022212626353153353,0.0036528433804237956,0.039873562348770736,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,recording,ECE,0.009069271584993883,-0.011935173316633045,0.022862904937057137,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,recording,Brier,-0.010316178060354453,-0.016925621373809315,-0.003116825715218729,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,single,recording,Log-loss,0.011291322302181273,-0.02445710387220447,0.04710924676830673,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,patient,F1 (macro),0.11842804096908055,0.0896629434282541,0.14721877840072378,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,patient,Accuracy,0.10526315789473684,0.08082907799718173,0.13009404924760612,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,patient,Weighted accuracy,0.07547169811320753,0.04604658402334949,0.10509635799444714,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,patient,AUC,0.04391302600377778,0.01981365027861973,0.06984055841407465,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,recording,AUC,0.0234809105574475,0.005357622652254801,0.04106847800090586,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,recording,ECE,0.0035547498784601686,-0.01691859515133808,0.020578793740084155,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,recording,Brier,-0.010412185875636998,-0.017401345713008876,-0.0030116020235776498,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,temp,recording,Log-loss,-0.0075527618187514745,-0.035703653074998426,0.020118859616611796,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,patient,F1 (macro),0.058407380097926564,0.030500683130842587,0.08777351741775168,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,patient,Accuracy,0.04462242562929064,0.02282652538823133,0.0653693670138961,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,patient,Weighted accuracy,0.04968553459119496,0.01906382702842886,0.07865239833456907,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,patient,AUC,0.04763474136891577,0.02197714595678091,0.07373860117059472,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,recording,AUC,0.021922034469086027,0.003401826526588628,0.03961735267252792,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,recording,ECE,-0.008758715075302542,-0.028692851018208697,0.011449210969306662,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,recording,Brier,-0.011309165880076535,-0.017800605799141184,-0.004410301950421935,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,mc,recording,Log-loss,0.00245282445899625,-0.032320341757977336,0.03835707570924459,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,patient,F1 (macro),0.044945316633598464,0.017623433899103067,0.07309311069198028,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,patient,Accuracy,0.03089244851258588,0.007990639790068843,0.05342780163682036,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,patient,Weighted accuracy,0.05723270440251571,0.030570733117850232,0.08366094908316381,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,patient,AUC,0.053422290100880176,0.03160708829790382,0.07752364297929937,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,recording,AUC,0.035858902703319484,0.01936022248625955,0.052661493481261756,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,recording,ECE,-0.003954002711098872,-0.024361443335793695,0.00861033570213601,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,recording,Brier,-0.016484887910876975,-0.02213243246252973,-0.010756862872082036,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens,recording,Log-loss,-0.03530695186116828,-0.0568555382263775,-0.013450097022204795,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,patient,F1 (macro),0.10446524379886646,0.07842651606305362,0.13226205344627662,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,patient,Accuracy,0.09153318077803207,0.0673518761880649,0.11638691767833755,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,patient,Weighted accuracy,0.07798742138364778,0.05328781984380603,0.10568766612162338,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,patient,AUC,0.04533579840038604,0.02269373623899262,0.0688693740185449,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,recording,AUC,0.034197504711933946,0.01824622258414186,0.0507574422401383,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,recording,ECE,-0.004506989927821847,-0.021158729041675085,0.00882484067697556,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,recording,Brier,-0.015554737787522824,-0.021515416752574776,-0.009509837360884373,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,murmur,ens_temp,recording,Log-loss,-0.04050783061619956,-0.05933841701559023,-0.021527558605689966,Domain-SSL fine-tuned
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,patient,F1 (macro),-0.02511470950796768,-0.054080080102417265,0.0031075439821018,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,patient,Accuracy,-0.02123142250530785,-0.04916933135288913,0.004311504897535518,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,patient,Weighted accuracy,-0.002892263195950817,-0.03488123161915579,0.027216826307749437,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,patient,AUC,-0.020941628763266218,-0.04376859725135984,0.0008636063027025194,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,patient,Cost (c_outcome),175.26264552133216,-370.8872358953901,767.7014051301771,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,recording,AUC,-0.012517049602336017,-0.03460687257957301,0.008110454497995525,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,recording,ECE,0.042951597260025634,0.010808095156337866,0.06332783297720528,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,recording,Brier,0.008080751298287892,0.002131235855164058,0.014289824539432762,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,single,recording,Log-loss,0.027569991371142577,0.007413098125822141,0.05301815860681058,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,patient,F1 (macro),-0.05632638206148699,-0.0865501733934695,-0.025535516594537535,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,patient,Accuracy,-0.0424628450106157,-0.07128066791247215,-0.01382686955741084,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,patient,Weighted accuracy,0.014461315979754086,-0.018428765992943352,0.046619946937769635,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,patient,AUC,-0.0180853367987871,-0.038272494726409305,0.0007675909051587256,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,patient,Cost (c_outcome),188.9786477340749,-401.6870129431265,805.0689483694542,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,recording,AUC,-0.009654637491835483,-0.0277023834556508,0.006756927104585835,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,recording,ECE,0.009447508134975684,-0.012372047088143665,0.02709192202995998,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,recording,Brier,0.0004034032257214937,-0.0030953544147389366,0.004181862261617882,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,temp,recording,Log-loss,0.0010785711634084816,-0.006820709601620192,0.00950043503549903,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,patient,F1 (macro),-0.03842623015408286,-0.06980150580003926,-0.01240213168404512,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,patient,Accuracy,-0.030785562632696384,-0.05976425087943726,-0.0063251744663383675,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,patient,Weighted accuracy,-0.009038322487346373,-0.041047051328722196,0.020203298810893763,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,patient,AUC,-0.02083784564291391,-0.0441289424220583,0.0017915268615097566,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,patient,Cost (c_outcome),438.1067193006802,-75.77743327485167,998.8544932534072,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,recording,AUC,-0.013105781175958175,-0.03550678400618304,0.008134210877112982,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,recording,ECE,0.0417309697595956,0.007989829244796024,0.06088931227253618,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,recording,Brier,0.007289206877632071,0.0014903582184055207,0.013356247548292663,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,mc,recording,Log-loss,0.021418330018378007,0.004990085005022299,0.039315180364736954,Domain-SSL frozen
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,patient,F1 (macro),0.006809706607121546,-0.0240486302380891,0.03782609088607442,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,patient,Accuracy,0.00424628450106157,-0.024498080670070498,0.032845116265398114,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,patient,Weighted accuracy,-0.010122921185827916,-0.04425294871486673,0.022881402636697672,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,patient,AUC,-0.008307161937766261,-0.024979048642992458,0.007839969212094143,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,patient,Cost (c_outcome),111.87667519758907,-488.3537037595233,741.7113329500083,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,recording,AUC,-0.002234458446997434,-0.016793717380583502,0.013055582600829604,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,recording,ECE,0.026002635631365838,-0.000625607740384736,0.04102741906194747,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,recording,Brier,0.0032407475265976426,-0.001198302943629339,0.007623399526469931,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens,recording,Log-loss,0.013794739219926133,-0.001872673837552538,0.03247496747146534,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,patient,F1 (macro),-0.013267406607126775,-0.04661411726853524,0.01689359927426734,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,patient,Accuracy,-0.009554140127388533,-0.04030937606765554,0.020043253405411222,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,patient,Weighted accuracy,0.008315256688358641,-0.02490938661710031,0.04023523418071289,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,patient,AUC,-0.007061764493538458,-0.023202747908401964,0.010056338392987425,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,patient,Cost (c_outcome),-33.71357357310808,-607.8160963715677,579.4267129742651,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,recording,AUC,-0.0017854055404002978,-0.01620558872865682,0.013991490655619089,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,recording,ECE,0.0015971944723585096,-0.015871632459986882,0.016929469926144962,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,recording,Brier,-0.00032661297668876155,-0.00394967552745075,0.003070010531883034,n.s.
+Domain-SSL fine-tuned − Domain-SSL frozen,outcome,ens_temp,recording,Log-loss,-0.0001797917934822646,-0.008067569075783185,0.008230390723262686,n.s.
